@@ -11,6 +11,8 @@
 
 <body>
     <header>
+
+        <!--Menu de navegação-->
         <nav>
             <img src="/imagens/logo-mercado-nft.png">
             <ul>
@@ -20,19 +22,78 @@
             </ul>
 
             <ul>
-                <li><a href="#/"><img src="/imagens/cart.svg" title="Meu carrinho" alt="carrinho de compras"></a></li>
-                <li><a href="#/"><img src="/imagens/profile.svg" title="Minha conta" alt="conta"></a></li>
+                <li><a href="#/"><img src="/imagens/cart.svg" title="Meu carrinho"
+                            alt="ícone do carrinho de compras" /></a></li>
+                <li><a href="#/"><img src="/imagens/profile.svg" title="Meu perfil" alt="ícone do meu perfil" /></a>
+                </li>
             </ul>
         </nav>
+        <!--Fim do menu de navegação-->
 
+        <!--Barra de pesquisa-->
         <div>
             <img src="/imagens/search-box.png" id="btn-busca" alt="barra de busca dos produtos" />
             <input type="text" id="txt-busca" placeholder="Barra de pesquisa" />
         </div>
+        <!--Fim da barra de pesquisa-->
 
     </header>
 
     <main>
+
+        <!--Slider-->
+        <section>
+
+            <!--Slides-->
+            <div>
+                <!--Botões radio-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--Fim dos botões radio-->
+
+                <!--Imagens do slider-->
+                <div>
+                    <img src="/imagens/banners/banner_01.png" title="Sua jornada em NFTs começa aqui"
+                        alt="Imagem 1 do slider" />
+                </div>
+                <div>
+                    <img src="/imagens/banners/banner_02.png" title="Compre, colecione e venda"
+                        alt="Imagem 2 do slider" />
+                </div>
+                <div>
+                    <img src="/imagens/banners/banner_03.png" title="Confira o ranking" alt="Imagem 3 do slider" />
+                </div>
+                <div>
+                    <img src="/imagens/banners/banner_04.png" title="Crie seu cadastro" alt="Imagem 4 do slider" />
+                </div>
+                <!--Fim das imagens do slider-->
+
+                <!--Navegação automática-->
+                <div>
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!--Fim da navegação automática-->
+
+            </div>
+            <!--Fim dos slides-->
+
+            <!--Navegação Manual-->
+            <div>
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--Fim da navegação Manual-->
+
+        </section>
+        <!--Fim do slider-->
+
         <section>
 
         </section>
@@ -85,11 +146,11 @@
                 </ul>
                 <li><a href="#/">Conta</a></li>
                 <ul>
-                    <li><a href="#/">Perfil</a></li>
+                    <li><a href="#/">Meu perfil</a></li>
                     <li><a href="#/">Favoritos</a></li>
                     <li><a href="#/">Watchlist</a></li>
                     <li><a href="#/">Minhas coleções</a></li>
-                    <li><a href="#/">Criar</a></li>
+                    <li><a href="#/">Criar Conta</a></li>
                     <li><a href="#/">Minha carteira</a></li>
                     <li><a href="#/">Modo noturno</a></li>
                 </ul>
