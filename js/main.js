@@ -1,40 +1,41 @@
 // Passo 1 - Dar um jeito de pegar o elemento HTML dos botões
-const botoesCarrossel = document.querySelectorAll('.botao');
-const imagens = document.querySelectorAll('.imagem');
+const carouselBtns = document.querySelectorAll('.btn');
+const images = document.querySelectorAll('.image');
 
 // Passo 2 - Dar um jeito de identificar o clique do usuário no botão
-botoesCarrossel.forEach((botao, index) => {
-    botao.addEventListener('click', () => {
+carouselBtns.forEach((btn, index) => {
+    btn.addEventListener('click', () => {
 
         // Passo 3 - Desmarcar o botão selecionado anterior
-        desativarBotaoSelecionado();
+        deactivateSelectedBtn();
 
         // Passo 4 - Marcar o botão clicando como se estivesse selecionado
-        selecionarBotaoCarrossel(botao);
+        selectCarouselBtns(btn);
 
         // Passo 5 - Esconder a imagem ativa de fundo
-        esconderImagemAtiva();
+        hideActiveImage();
 
         // Passo 6 - Fazer aparecder a imagem de fundo correspondente ao botão clicado
-        mostrarImagemFundo(index);
+        showBackgroundImage(index);
     })
 })
 
-function mostrarImagemFundo(index) {
-    imagens[index].classList.add('ativa');
+function showBackgroundImage(index) {
+    images[index].classList.add('active');
 }
 
-function selecionarBotaoCarrossel(botao) {
-    botao.classList.add('selecionado');
+function selectCarouselBtns(btn) {
+    btn.classList.add('selected');
 }
 
-function esconderImagemAtiva() {
-    const imagemAtiva = document.querySelector('.ativa');
-    imagemAtiva.classList.remove('ativa');
+function hideActiveImage() {
+    const activeImage = document.querySelector('.active');
+    activeImage.classList.remove('active');
 }
 
-function desativarBotaoSelecionado() {
-    const botaoSelecionado = document.querySelector('.selecionado');
-    botaoSelecionado.classList.remove('selecionado');
+function deactivateSelectedBtn() {
+    const selectedBtn = document.querySelector('.selected');
+    selectedBtn.classList.remove('selected');
 }
+
 

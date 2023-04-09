@@ -99,9 +99,7 @@
             </div>
         </nav>
 
-
-
-        <section>
+        <section class="search-bar">
             <input type="text" id="texto-busca" placeholder="Barra de pesquisa" class="search-box" />
         </section>
 
@@ -110,36 +108,29 @@
 
     <main>
 
-
-        <section>
-
-
-            <section class="carrossel">
+        <section class="carousel">
+            <section class="carousel__images">
                 <img src="imagens/banners/banner_01.png" title="Sua jornada em NFTs começa aqui"
-                    alt="Banner: sua jornada no mundo das NFTs começa aqui" />
+                    alt="Banner: sua jornada no mundo das NFTs começa aqui" class="image active"/>
 
                 <img src="imagens/banners/banner_02.png" title="Compre, colecione e venda"
-                    alt="Banner: compre, colecione e venda os melhores NFTs do Brasil" />
+                    alt="Banner: compre, colecione e venda os melhores NFTs do Brasil" class="image"/>
 
                 <img src="imagens/banners/banner_03.png" title="Confira o ranking"
-                    alt="Banner: confira o ranking com as NFTs mais compradas" />
+                    alt="Banner: confira o ranking com as NFTs mais compradas" class="image"/>
 
                 <img src="imagens/banners/banner_04.png" title="Crie seu cadastro"
-                    alt="Banner: crie seu cadastro e comece a explorar" />
+                    alt="Banner: crie seu cadastro e comece a explorar" class="image"/>
 
             </section>
 
-            <div>
-                <label for="radio1" class="botao__manual"></label>
-                <label for="radio2" class="botao__manual"></label>
-                <label for="radio3" class="botao__manual"></label>
-                <label for="radio4" class="botao__manual"></label>
+            <div class="carousel__btns">
+                <button class="btn selected"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
             </div>
         </section>
-
-
-        </section>
-        <!--Fim do slider-->
 
         <section>
             <!--Previews-->
