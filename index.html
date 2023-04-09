@@ -7,134 +7,136 @@
     <meta name="description"
         content="Projeto final de desenvolvimento web do grupo Beatriz Toledo, Jayme Gabriel e Karoline Prestes. Um e-commerce de NFTs, o Mercado NFT, é o primeiro marketplace de NFTs do Brasil.">
     <link rel="shortcut icon" href="imagens/logo-mercado-nft.png">
-
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css">
     <title>Mercado NFT - O maior marketplace de NFTs do Brasil</title>
 </head>
 
 <body>
 
     <header>
-        <!--Menu de navegação-->
-        <section>
-            <nav>
-                <button>
-                    <img src="imagens/logo-mercado-nft.png">
-                </button>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li>Explorar</li>
-                    <ul>
-                        <li><a href="artes.html">Artes</a></li>
-                        <li><a href="#">Colecionáveis</a></li>
-                        <li><a href="#">Fotografia</a></li>
-                        <li><a href="#">Esporte</a></li>
-                        <li><a href="#">Música</a></li>
-                        <li><a href="#">Cards</a></li>
-                        <li><a href="#">Mundos virtuais</a></li>
-                        <li><a href="#">Domínios</a></li>
-                        <li><a href="#">Utilidades</a></li>
-                        <li><a href="#">Games</a></li>
-                        <li><a href="#">Todos</a></li>
-                    </ul>
-                    <li>Estatísticas</li>
-                    <ul>
-                        <li><a href="estatisticas.html">Rankings</a></li>
-                        <li><a href="#">Atividades</a></li>
-                    </ul>
-                </ul>
 
+        <nav class="navbar">
+            <div>
+                <a href="index.html"><img src="imagens/logo-mercado-nft.png" class="logo" alt="Logo Mercado NFT"
+                        title="Logo Mercado NFT"></a>
+            </div>
+            <div class="navbar__menu">
                 <ul>
-                    <li>
-                        <button>
-                            <img src="imagens/cart.svg" title="Meu carrinho" alt="ícone do carrinho de compras" />
-                    </button>
+                    <li>Home</li>
+                    <li>Explorar
+                        <ul>
+                            <li><a href="artes.html"><img src="imagens/icons/artes.svg" class="icons"
+                                        alt="Ícone artes">Artes</a></li>
+                            <li><a href="#"><img src="imagens/icons/colecionaveis.svg" class="icons"
+                                        alt="Ícone colecionáveis">Colecionáveis</a></li>
+                            <li><a href="#"><img src="imagens/icons/fotografia.svg" class="icons"
+                                        alt="Ícone fotografias">Fotografias</a></li>
+                            <li><a href="#"><img src="imagens/icons/esporte.svg" class="icons"
+                                        alt="Ícone esportes">Esportes</a></li>
+                            <li><a href="#"><img src="imagens/icons/musica.svg" class="icons"
+                                        alt="Ícone músicas">Músicas</a></li>
+                            <li><a href="#"><img src="imagens/icons/card.svg" class="icons" alt="Ícone cards">Cards</a>
+                            </li>
+                            <li><a href="#"><img src="imagens/icons/mundos.svg" class="icons"
+                                        alt="Ícone mundos virtuais">Mundos virtuais</a></li>
+                            <li><a href="#"><img src="imagens/icons/dominios.svg" class="icons"
+                                        alt="Ícone domínios">Domínios</a></li>
+                            <li><a href="#"><img src="imagens/icons/utilidades.svg" class="icons"
+                                        alt="Ícone utilidades">Utilidades</a></li>
+                            <li><a href="#"><img src="imagens/icons/games.svg" class="icons" alt="Ícone games">Games</a>
+                            </li>
+                            <li><a href="#"><img src="imagens/icons/todos.svg" class="icons" alt="Ícone todos">Todos</a>
+                            </li>
+                        </ul>
                     </li>
-                    <ul>
-                        <li><a href="carrinho.html">Meu carrinho</a></li>
-                        <li><a href="#">Últimas compras</a></li>
-                        <li><a href="#">Checkout</a></li>
-                    </ul>
-                    <li>
-                        <button>
-                            <a href="#"><img src="imagens/profile.svg" title="Meu perfil"
-                                    alt="ícone do meu perfil" /></a>
-                        </button>
+                    <li>Estatísticas
+                        <ul>
+                            <li><a href="estatisticas.html"><a href="#"><img src="imagens/icons/rankings.svg"
+                                            class="icons" alt="Ícone lista de rankings">Rankings</a></li>
+                            <li><a href="#"><a href="#"><img src="imagens/icons/atividade.svg" class="icons"
+                                            alt="Ícone atividade">Atividade</a></li>
+                        </ul>
                     </li>
-                    <ul>
-                        <li><a href="perfil.html">Perfil</a></li>
-                        <li><a href="#">Favoritos</a></li>
-                        <li><a href="#">Watchlist</a></li>
-                        <li><a href="#">Minhas coleções</a></li>
-                        <li><a href="#">Minha carteira</a></li>
-                        <li><a href="#">Criar conta</a></li>
-                        <li><a href="#">Sair</a></li>
-                    </ul>
                 </ul>
-            </nav>
-        </section>
-        <!--Fim do menu de navegação-->
+            </div>
 
-        <!--Barra de pesquisa-->
+            <div class="navbar__actions">
+                <ul>
+                    <li class="navbar__menu--items"><a href="#"><img src="imagens/icons/cart.svg" title="Meu carrinho"
+                                alt="ícone do carrinho de compras" /></a>
+                        <ul>
+                            <li><a href="carrinho.html"><img src="imagens/icons/meu-carrinho.svg" class="icons"
+                                        alt="Ícone meu carrinho">Meu carrinho</a></li>
+                            <li><a href="#"><a href="#"><img src="imagens/icons/utlimas-compras.svg" class="icons"
+                                            alt="Ícone últimas compras">Últimas compras</a></li>
+                            <li><a href="#"><a href="#"><img src="imagens/icons/checkout.svg" class="icons"
+                                            alt="Ícone checkout">Checkout</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="navbar__menu--items"><a href="#"><img src="imagens/icons/profile.svg" title="Meu perfil"
+                                alt="ícone do meu perfil" /></a>
+                        <ul>
+                            <li><a href="perfil.html"><img src="imagens/icons/meu-perfil.svg" class="icons"
+                                        alt="Ícone meu perfil">Perfil</a></li>
+                            <li><a href="#"><img src="imagens/icons/favoritos.svg" class="icons"
+                                        alt="Ícone favoritos">Favoritos</a></li>
+                            <li><a href="#"><img src="imagens/icons/watchlist.svg" class="icons"
+                                        alt="Ícone minha watchlist">Watchlist</a></li>
+                            <li><a href="#"><img src="imagens/icons/minhas-colecoes.svg" class="icons"
+                                        alt="Ícone minhas coleções">Minhas coleções</a></li>
+                            <li><a href="#"><img src="imagens/icons/carteira.svg" class="icons"
+                                        alt="Ícone minha carteira">Minha carteira</a></li>
+                            <li><a href="#"><img src="imagens/icons/criar.svg" class="icons" alt="Ícone criar">Criar
+                                    conta</a></li>
+                            <li><a href="#"><img src="imagens/icons/sair.svg" class="icons" alt="Ícone sair">Sair</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
         <section>
-            <img src="imagens/search-box.png" id="botao-busca" alt="barra de busca dos produtos" />
-            <input type="text" id="texto-busca" placeholder="Barra de pesquisa" />
+            <input type="text" id="texto-busca" placeholder="Barra de pesquisa" class="search-box" />
         </section>
-        <!--Fim da barra de pesquisa-->
+
 
     </header>
 
-    <!--Conteúdo principal-->
     <main>
 
-        <!--Slider-->
+
         <section>
 
-            <!--Slides-->
-            <section>
-                <!--Botões radio-->
-                <input type="radio" name="botao-radio" id="botao__radio--1">
-                <input type="radio" name="botao-radio" id="botao__radio--2">
-                <input type="radio" name="botao-radio" id="botao__radio--3">
-                <input type="radio" name="botao-radio" id="botao__radio--4">
-                <!--Fim dos botões radio-->
 
-                <!--Imagens do slider-->
-                <div>
-                    <img src="imagens/banners/banner_01.png" title="Sua jornada em NFTs começa aqui"
-                        alt="Imagem 1 do banner" />
-                </div>
-                <div>
-                    <img src="imagens/banners/banner_02.png" title="Compre, colecione e venda"
-                        alt="Imagem 2 do banner" />
-                </div>
-                <div>
-                    <img src="imagens/banners/banner_03.png" title="Confira o ranking" alt="Imagem 3 do banner" />
-                </div>
-                <div>
-                    <img src="imagens/banners/banner_04.png" title="Crie seu cadastro" alt="Imagem 4 do banner" />
-                </div>
-                <!--Fim das imagens do slider-->
+            <section class="carrossel">
+                <img src="imagens/banners/banner_01.png" title="Sua jornada em NFTs começa aqui"
+                    alt="Banner: sua jornada no mundo das NFTs começa aqui" />
 
-                <!--Navegação automática-->
-                <div>
-                    <div class="botao__auto--1"></div>
-                    <div class="botao__auto--2"></div>
-                    <div class="botao__auto--3"></div>
-                    <div class="botao__auto--4"></div>
-                </div>
-                <!--Fim da navegação automática-->
+                <img src="imagens/banners/banner_02.png" title="Compre, colecione e venda"
+                    alt="Banner: compre, colecione e venda os melhores NFTs do Brasil" />
 
-                </div>
-                <!--Fim dos slides-->
+                <img src="imagens/banners/banner_03.png" title="Confira o ranking"
+                    alt="Banner: confira o ranking com as NFTs mais compradas" />
 
-                <!--Navegação manual-->
-                <div>
-                    <label for="radio1" class="botao__manual"></label>
-                    <label for="radio2" class="botao__manual"></label>
-                    <label for="radio3" class="botao__manual"></label>
-                    <label for="radio4" class="botao__manual"></label>
+                <img src="imagens/banners/banner_04.png" title="Crie seu cadastro"
+                    alt="Banner: crie seu cadastro e comece a explorar" />
+
             </section>
-            <!--Fim da navegação manual-->
+
+            <div>
+                <label for="radio1" class="botao__manual"></label>
+                <label for="radio2" class="botao__manual"></label>
+                <label for="radio3" class="botao__manual"></label>
+                <label for="radio4" class="botao__manual"></label>
+            </div>
+        </section>
+
 
         </section>
         <!--Fim do slider-->
@@ -459,7 +461,7 @@
         </section>
     </footer>
 
-
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

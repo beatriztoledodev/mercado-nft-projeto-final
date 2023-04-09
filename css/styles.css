@@ -1,0 +1,87 @@
+body {
+    background-color: #2A2636;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    color: #2A2636;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 24px;
+ }
+ 
+.navbar ul li a {
+    text-decoration: none;
+}
+ 
+.navbar ul li:hover {
+    color: #B13CF1;
+    transition: 0.2s;
+ }
+ 
+ .navbar ul li:hover ul {
+    display: block;
+    background-color: #FFFFFF;
+    padding: 0 20px 0 20px;
+ }
+ 
+ .navbar ul li ul {
+    position: absolute;
+    display: none;
+ }
+ 
+ .navbar ul li ul li {
+    display: block;
+    padding-left: 10px;
+ }
+ 
+ .navbar ul li ul li a {
+    color: #2A2636;
+    display: block;
+    font-size: 20px;
+ }
+ 
+ .navbar ul li ul li:hover {
+    padding-left: 10px;
+ }
+
+ .navbar .logo {
+    width: 50px;
+}
+
+.navbar .icons {
+    padding-right: 10px;
+}
+
+.search-box {
+    margin: 20px;
+    border: none;
+    width: 1328px;
+    height: 36px;
+    background: url(/imagens/search-box.png) no-repeat;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.search-box::placeholder {
+    padding-left: 40px;
+}
+
+.search-box:focus {
+    background: none;
+    margin: 20px;
+    border: none;
+    width: 1328px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
