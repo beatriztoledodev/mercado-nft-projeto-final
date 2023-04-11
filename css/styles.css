@@ -494,12 +494,12 @@ body {
     padding: 0;
   }
   
-  .card {
+  .card-collection {
     width: 440px;
     height: 350px;
   }
 
-  .card:hover {
+  .card-collection:hover {
     transform: scale(1.05);
   }
 
@@ -576,3 +576,119 @@ body {
     background-color: #B13CF1;
 }
 /* Final pagina Perfil */
+
+/* Inicio pagina Artes */
+
+.carrossel {
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .carrossel img {
+    width: 1569px;
+    height: 451px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+
+.search-box:focus {
+    background: none;
+    margin: 20px;
+    border: none;
+    width: 1328px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+  .cards-container-nft {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 200px;
+    margin-top: 503px;
+  }
+  
+  
+  .coluna {
+    width: 48%;
+  }
+  
+  .linha {
+    width: 2px;
+    height: 980px;
+    background-color: #373146;
+  }
+  
+
+  .card-nft{
+    width: 637px;
+    height: 112px;
+    background-color: #463F59;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.card-nft img {
+    width: 80px;
+    height: 80px;
+    margin: 16px;
+    float: left;
+}
+
+.card-nft .texto {
+    margin-left: 116px;
+    color: white;
+    width: calc(100% - 116px);
+}
+
+.card-nft h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 16px;
+    float: left;
+}
+
+.card-nft .valor-1 {
+    float: bottom;
+    clear: both;
+}
+
+.card-nft .valor-2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 32px;
+    color: white;
+    float: left;
+}
+
+.card-nft .valor-3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 16px;
+    color: white;
+    float: left;
+}
+    
+.botao-ver-mais {
+    width: 78px;
+    height: 24px;
+    background-color: #716279;
+    color: white;
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 12px;
+    border: none;
+    border-radius: 16px;
+    display: block;
+    margin: 32px auto 32px;
+  }
+
+/* Final pagina Artes */
