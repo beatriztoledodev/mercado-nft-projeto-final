@@ -127,6 +127,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-top: -40px;
+    z-index: 1;
 }
 
 .carousel__btns .btn {
@@ -164,7 +166,7 @@ body {
 }
 
 .cards__overview {
-    margin-top: 20px;
+    margin-top: 60px;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -227,4 +229,61 @@ body {
     display: flex;
     justify-content: center;
     margin: 40px;
+}
+
+.footer__container {
+    display: flex;
+    background-color: #120917;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer__description {
+    width: 300px;
+    color: #FFFFFF;
+}
+
+.footer__description h3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.footer__container .logo {
+    margin-top: 40px;
+}
+
+.horizontal-line {
+    margin: 30px;
+    width: 2px;
+    height: 295px;
+    border: solid 0.2px #271332;
+}
+
+.footer__menu {
+    margin-top: 40px;
+}
+
+.footer__titles {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 60px;
+}
+
+.footer__titles ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__text {
+    margin: 15px 0 15px 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer__titles--list a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
 }
