@@ -7,6 +7,7 @@
     <meta name="description"
         content="Projeto final de desenvolvimento web do grupo Beatriz Toledo, Jayme Gabriel e Karoline Prestes. Um e-commerce de NFTs, o Mercado NFT, é o primeiro marketplace de NFTs do Brasil.">
     <link rel="shortcut icon" href="imagens/logo-mercado-nft.png">
+    <link rel="stylesheet" href="css/styles.css">
 
     <title>Mercado NFT - Perfil</title>
 </head>
@@ -16,70 +17,96 @@
 
         <!--Menu de navegação-->
         <section>
-            <nav>
-                <button>
-                    <img src="imagens/logo-mercado-nft.png">
-                </button>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li>Explorar</li>
-                    <ul>
-                        <li><a href="artes.html">Artes</a></li>
-                        <li><a href="#">Colecionáveis</a></li>
-                        <li><a href="#">Fotografia</a></li>
-                        <li><a href="#">Esporte</a></li>
-                        <li><a href="#">Música</a></li>
-                        <li><a href="#">Cards</a></li>
-                        <li><a href="#">Mundos virtuais</a></li>
-                        <li><a href="#">Domínios</a></li>
-                        <li><a href="#">Utilidades</a></li>
-                        <li><a href="#">Games</a></li>
-                        <li><a href="#">Todos</a></li>
-                    </ul>
-                    <li>Estatísticas</li>
-                    <ul>
-                        <li><a href="estatisticas.html">Rankings</a></li>
-                        <li><a href="#">Atividades</a></li>
-                    </ul>
-                </ul>
+            <nav class="navbar">
 
-                <ul>
-                    <li>
-                        <button>
-                            <img src="imagens/cart.svg" title="Meu carrinho" alt="ícone do carrinho de compras" />
-                    </li>
-                    </button>
+                <div class="logo">
+                    <a href="index.html"><img src="imagens/logo-mercado-nft.png" class="logo" alt="Logo Mercado NFT"
+                            title="Logo Mercado NFT"></a>
+                </div>
+
+                <div class="navbar__menu">
                     <ul>
-                        <li><a href="carrinho.html">Meu carrinho</a></li>
-                        <li><a href="#">Últimas compras</a></li>
-                        <li><a href="#">Checkout</a></li>
+                        <li>Home</li>
+                        <li>Explorar
+                            <ul>
+                                <li><a href="artes.html"><img src="imagens/icons/artes.svg" class="icons"
+                                            alt="Ícone artes">Artes</a></li>
+                                <li><a href="#"><img src="imagens/icons/colecionaveis.svg" class="icons"
+                                            alt="Ícone colecionáveis">Colecionáveis</a></li>
+                                <li><a href="#"><img src="imagens/icons/fotografia.svg" class="icons"
+                                            alt="Ícone fotografias">Fotografias</a></li>
+                                <li><a href="#"><img src="imagens/icons/esporte.svg" class="icons"
+                                            alt="Ícone esportes">Esportes</a></li>
+                                <li><a href="#"><img src="imagens/icons/musica.svg" class="icons"
+                                            alt="Ícone músicas">Músicas</a></li>
+                                <li><a href="#"><img src="imagens/icons/card.svg" class="icons"
+                                            alt="Ícone cards">Cards</a>
+                                </li>
+                                <li><a href="#"><img src="imagens/icons/mundos.svg" class="icons"
+                                            alt="Ícone mundos virtuais">Mundos virtuais</a></li>
+                                <li><a href="#"><img src="imagens/icons/dominios.svg" class="icons"
+                                            alt="Ícone domínios">Domínios</a></li>
+                                <li><a href="#"><img src="imagens/icons/utilidades.svg" class="icons"
+                                            alt="Ícone utilidades">Utilidades</a></li>
+                                <li><a href="#"><img src="imagens/icons/games.svg" class="icons"
+                                            alt="Ícone games">Games</a>
+                                </li>
+                                <li><a href="#"><img src="imagens/icons/todos.svg" class="icons"
+                                            alt="Ícone todos">Todos</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Estatísticas
+                            <ul>
+                                <li><a href="estatisticas.html"><a href="#"><img src="imagens/icons/rankings.svg"
+                                                class="icons" alt="Ícone lista de rankings">Rankings</a></li>
+                                <li><a href="#"><a href="#"><img src="imagens/icons/atividade.svg" class="icons"
+                                                alt="Ícone atividade">Atividade</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                    <li>
-                        <button>
-                            <a href="#"><img src="imagens/profile.svg" title="Meu perfil"
-                                    alt="ícone do meu perfil" /></a>
-                        </button>
-                    </li>
+                </div>
+
+                <div class="navbar__actions">
                     <ul>
-                        <li><a href="perfil.html">Perfil</a></li>
-                        <li><a href="#">Favoritos</a></li>
-                        <li><a href="#">Watchlist</a></li>
-                        <li><a href="#">Minhas coleções</a></li>
-                        <li><a href="#">Minha carteira</a></li>
-                        <li><a href="#">Criar conta</a></li>
-                        <li><a href="#">Sair</a></li>
+                        <li class="navbar__menu--items"><a href="#"><img src="imagens/icons/cart.svg"
+                                    title="Meu carrinho" alt="ícone do carrinho de compras" /></a>
+                            <ul>
+                                <li><a href="carrinho.html"><img src="imagens/icons/meu-carrinho.svg" class="icons"
+                                            alt="Ícone meu carrinho">Meu carrinho</a></li>
+                                <li><a href="#"><a href="#"><img src="imagens/icons/utlimas-compras.svg" class="icons"
+                                                alt="Ícone últimas compras">Últimas compras</a></li>
+                                <li><a href="#"><a href="#"><img src="imagens/icons/checkout.svg" class="icons"
+                                                alt="Ícone checkout">Checkout</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="navbar__menu--items"><a href="#"><img src="imagens/icons/profile.svg"
+                                    title="Meu perfil" alt="ícone do meu perfil" /></a>
+                            <ul>
+                                <li><a href="perfil.html"><img src="imagens/icons/meu-perfil.svg" class="icons"
+                                            alt="Ícone meu perfil">Perfil</a></li>
+                                <li><a href="#"><img src="imagens/icons/favoritos.svg" class="icons"
+                                            alt="Ícone favoritos">Favoritos</a></li>
+                                <li><a href="#"><img src="imagens/icons/watchlist.svg" class="icons"
+                                            alt="Ícone minha watchlist">Watchlist</a></li>
+                                <li><a href="#"><img src="imagens/icons/minhas-colecoes.svg" class="icons"
+                                            alt="Ícone minhas coleções">Minhas coleções</a></li>
+                                <li><a href="#"><img src="imagens/icons/carteira.svg" class="icons"
+                                            alt="Ícone minha carteira">Minha carteira</a></li>
+                                <li><a href="#"><img src="imagens/icons/criar.svg" class="icons" alt="Ícone criar">Criar
+                                        conta</a></li>
+                                <li><a href="#"><img src="imagens/icons/sair.svg" class="icons"
+                                            alt="Ícone sair">Sair</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
-                </ul>
+                </div>
             </nav>
         </section>
         <!--Fim do menu de navegação-->
-
-        <!--Barra de pesquisa-->
-        <div>
-            <img src="imagens/search-box.png" id="botao-busca" alt="barra de busca dos produtos" />
-            <input type="text" id="texto-busca" placeholder="Barra de pesquisa" />
-        </div>
-        <!--Fim da barra de pesquisa-->
     </header>
 
     <body>
@@ -87,122 +114,226 @@
         <main>
 
             <!--Perfil do usuario-->
-            <section>
-                <div>
-                    <div class="fundo__imagem">
-                        <img src="imagens/perfil/banner-perfil.png" id="banner-perfil"
-                            alt="banner com imagem de fundo do perfil" />
-                    </div>
-                    <div class="perfil__compartilhamento">
-                        <button>
-                            <img src="imagens/perfil/compartilhar-icone.png" id="icone-compartilhamento"
-                                alt="icone de compartilhamento de perfil" />
-                        </button>
-                    </div>
-                    <div class="perfil__imagem">
-                        <button>
-                            <img src="imagens/perfil/foto-perfil.png" id="foto-perfil"
-                                alt="foto de perfil do usuario" />
-                        </button>
-                    </div>
-                    <div class="perfil__detalhes">
+            <section class="profile">
+                <div class="banner">
+                    <img src="imagens/perfil/banner-perfil.png" alt="banner do perfil">
+                </div>
+                <div class="avatar">
+                    <img class="avatar-image" src="imagens/perfil/foto_perfil.png" alt="foto de perfil">
+                    <img class="avatar-image-hover" src="imagens/perfil/foto_perfil_2.png" alt="foto de perfil">
+                </div>
+                <div class="container-info-stats-perfil">
+                    <div class="info">
+                        <h1>Juliana Silveira</h1>
+                        <h2>Ilustradora</h2>
                         <ul>
-                            <li>
-                                <h2>Juliana Silveira</h2>
-                            </li>
-                            <li>Ilustradora</li>
-                            <li>29 anos</li>
-                            <li>Minas Gerais, Brasil</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Minas Gerais, Brasil</li>
+                            <li><i class="fas fa-birthday-cake"></i> 29 anos</li>
                         </ul>
                     </div>
-                    <div>
-                        <button>
-                            <img src="imagens/perfil/menu-3pontos.png" id="foto-perfil"
-                                alt="foto de perfil do usuario" />
-                        </button>
+                    <div class="stats">
+                        <div>
+                            <p>Seguidores</p>
+                            <p>785</p>
+                        </div>
+                        <div>
+                            <p>Visualizações</p>
+                            <p>31.922</p>
+                        </div>
+                        <div>
+                            <p>Likes</p>
+                            <p>8.604</p>
+                        </div>
+                        <div>
+                            <p>Favoritos</p>
+                            <p>5.344</p>
+                        </div>
+                        <div>
+                            <p>Coleções</p>
+                            <p>11</p>
+                        </div>
                     </div>
-                    <div>
-                        <table width="621" height="100" border="1">
-                            <thead>
-                                <tr>
-                                    <th width="124.2" height="50">Seguidores</th>
-                                    <th width="124.2" height="50">Visualizações</th>
-                                    <th width="124.2" height="50">Likes</th>
-                                    <th width="124.2" height="50">Favoritos</th>
-                                    <th width="124.2" height="50">Coleções</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td width="124.2" height="50">785</td>
-                                    <td width="124.2" height="50">31.922</td>
-                                    <td width="124.2" height="50">8.604</td>
-                                    <td width="124.2" height="50">5.344</td>
-                                    <td width="124.2" height="50">11</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <button>Editar perfil</button>
-                    </div>
+                </div>
+                <div class="button-container-info-stats-perfil">
+                    <button class="button-edit-profile">Editar perfil</button>
                 </div>
             </section>
             <!--Fim do perfil do usuario-->
+
+            <!--Inicio da Galeria-->
+            <section class="collection">
+                <div class="collection-menu">
+                    <h2 class="title-collection-menu">Minhas Coleções</h2>
+                    <img class="vertical-collection-menu" src="imagens/perfil/carbon_overflow-menu-vertical.png"
+                        title="Menu 3 pontos" alt="Menu das minhas coleções" />
+                </div>
+                <br>
+                <div class="container-collection-cards">
+                    <div class="card">
+                        <div class="img-collection-cards">
+                            <img src="imagens/perfil/galeria_1.png" title="Coleção - Fotos noturnas"
+                                alt="Capa da coleção fotos noturnas" />
+                        </div>
+                        <div class="info-subtitle-collection-cards" id="card-1">
+                            <p>Fotos Noturnas</p>
+                            <p>144 fotos</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-collection-cards">
+                            <img src="imagens/perfil/galeria_2.png" title="Coleção - Fotos de Cidades"
+                                alt="Capa da coleção fotos de cidades" />
+                        </div>
+                        <div class="info-subtitle-collection-cards" id="card-2">
+                            <p>Fotos de Cidades</p>
+                            <p>100 fotos</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="container-collection-cards">
+                            <img src="imagens/perfil/galeria_3.png" title="Coleção - Artes" alt="Capa da coleção artes" />
+                        </div>
+                        <div class="info-subtitle-collection-cards" id="card-3">
+                            <p>Artes</p>
+                            <p>60 fotos</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="container-collection-cards">
+                            <img src="imagens/perfil/galeria_4.png" title="Coleção - Alma do Mundo"
+                                alt="Capa da coleção alma do mundo" />
+                        </div>
+                        <div class="info-subtitle-collection-cards" id="card-4">
+                            <p>Alma do Mundo</p>
+                            <p>110 fotos</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="container-collection-cards">
+                            <img src="imagens/perfil/galeria_5.png" title="Coleção - Colecionáveis"
+                                alt="Capa da coleção colecionáveis" />
+                        </div>
+                        <div class="info-subtitle-collection-cards" id="card-5">
+                            <p>Colecionáveis</p>
+                            <p>20 fotos</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="container-collection-cards">
+                            <img src="imagens/perfil/galeria_6.png" title="Coleção - Games" alt="Capa da coleção games" />
+                        </div>
+                        <div class="info-subtitle-collection-cards" id="card-6">
+                            <p>Games</p>
+                            <p>33 foto</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="container-collection-cards">
+                            <img src="imagens/perfil/galeria_7.png" title="Coleção - Esportes" alt="Capa da coleção esportes" />
+                        </div>
+                        <div class="info-subtitle-collection-cards" id="card-7">
+                            <p>Esportes</p>
+                            <p>144 fotos</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="container-collection-cards">
+                            <img src="imagens/perfil/galeria_8.png" title="Coleção - Músicas" alt="Capa da coleção músicas" />
+                        </div>
+                        <div class="info-subtitle-collection-cards" id="card-8">
+                            <p>Músicas</p>
+                            <p>144 foto</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="container-collection-cards">
+                            <img src="imagens/perfil/galeria_9.png" title="Coleção - Animais" alt="Capa da coleção animais" />
+                        </div>
+                        <div class="info-subtitle-collection-cards" id="card-9">
+                            <p>Animais</p>
+                            <p>144 fotos</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="button-container-info-collection">
+                    <button class="button-view-more">Ver mais</button>
+                </div>
+            </section>
+            <!--Final da Galeria-->
         </main>
 
         <br>
 
         <footer>
+            <section class="footer__container">
+                <div class="footer_content">
+                    <div>
+                        <img src="imagens/logo-mercado-nft.png" class="logo">
+                    </div>
 
-            <div>
-                <img src="imagens/logo-mercado-nft.png">
-                <p>O primeiro e maior mercado digital do Brasil para colecionáveis ​​e tokens não fungíveis (NFTs).
-                    Compre,
-                    venda e descubra itens digitais exclusivos.</p>
-                <p>Mercado NFT - Projeto Coderhouse
-                <p>Jayme | Karoline | Beatriz</p>
-                <p>2023 &copy; Todos os direitos reservados</p>
-            </div>
+                    <div class="footer__description">
+                        <h3>Mercado NFT</h3>
+                        <p class="footer__text">O primeiro e maior mercado digital do Brasil para
+                            colecionáveis ​​e tokens não fungíveis (NFTs).
+                            Compre,
+                            venda e descubra itens digitais exclusivos.</p>
+                        <p class="footer__text">Mercado NFT - Projeto Coderhouse
+                            Jayme | Karoline | Beatriz</p>
 
-            <div>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li>Explorar</li>
+                    </div>
+                </div>
+
+                <div class="horizontal-line">
+
+                </div>
+
+                <div class="footer__menu">
                     <ul>
-                        <li><a href="artes.html">Artes</a></li>
-                        <li><a href="#">Colecionáveis</a></li>
-                        <li><a href="#">Fotografia</a></li>
-                        <li><a href="#">Esporte</a></li>
-                        <li><a href="#">Música</a></li>
-                        <li><a href="#">Cards</a></li>
-                        <li><a href="#">Mundos virtuais</a></li>
-                        <li><a href="#">Domínios</a></li>
-                        <li><a href="#">Utilidades</a></li>
-                        <li><a href="#">Games</a></li>
-                        <li><a href="#">Todos</a></li>
+                        <li class="footer__titles">Home</li>
+                        <li class="footer__titles">Explorar
+                            <ul>
+                                <li class="footer__titles--list"><a href="artes.html">Artes</a></li>
+                                <li class="footer__titles--list"><a href="#">Colecionáveis</a></li>
+                                <li class="footer__titles--list"><a href="#">Fotografia</a></li>
+                                <li class="footer__titles--list"><a href="#">Esporte</a></li>
+                                <li class="footer__titles--list"><a href="#">Música</a></li>
+                                <li class="footer__titles--list"><a href="#">Cards</a></li>
+                                <li class="footer__titles--list"><a href="#">Mundos virtuais</a></li>
+                                <li class="footer__titles--list"><a href="#">Domínios</a></li>
+                                <li class="footer__titles--list"><a href="#">Utilidades</a></li>
+                                <li class="footer__titles--list"><a href="#">Games</a></li>
+                                <li class="footer__titles--list"><a href="#">Todos</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="footer__titles">Estatísticas
+                            <ul>
+                                <li class="footer__titles--list"><a href="estatisticas.html">Rankings</a></li>
+                                <li class="footer__titles--list"><a href="#">Atividades</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__titles">Carrinho
+                            <ul>
+                                <li class="footer__titles--list"><a href="carrinho.html">Meu carrinho</a></li>
+                                <li class="footer__titles--list"><a href="#">Últimas compras</a></li>
+                                <li class="footer__titles--list"><a href="#">Checkout</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__titles">Conta
+                            <ul>
+                                <li class="footer__titles--list"><a href="carrinho.html">Perfil</a></li>
+                                <li class="footer__titles--list"><a href="#">Favoritos</a></li>
+                                <li class="footer__titles--list"><a href="#">Watchlist</a></li>
+                                <li class="footer__titles--list"><a href="#">Minhas coleções</a></li>
+                                <li class="footer__titles--list"><a href="#">Criar</a></li>
+                                <li class="footer__titles--list"><a href="#">Minha carteira</a></li>
+                                <li class="footer__titles--list"><a href="#">Modo noturno</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                    <li>Estatísticas</li>
-                    <ul>
-                        <li><a href="estatisticas.html">Rankings</a></li>
-                        <li><a href="#">Atividades</a></li>
-                    </ul>
-                    <li><a href="#">Carrinho</a></li>
-                    <ul>
-                        <li><a href="carrinho.html">Meu carrinho</a></li>
-                        <li><a href="#">Últimas compras</a></li>
-                        <li><a href="#">Checkout</a></li>
-                    </ul>
-                    <li><a href="#">Conta</a></li>
-                    <ul>
-                        <li><a href="perfil.html">Perfil</a></li>
-                        <li><a href="#">Favoritos</a></li>
-                        <li><a href="#">Watchlist</a></li>
-                        <li><a href="#">Minhas coleções</a></li>
-                        <li><a href="#">Criar Conta</a></li>
-                        <li><a href="#">Minha carteira</a></li>
-                        <li><a href="#">Modo noturno</a></li>
-                    </ul>
-                </ul>
-            </div>
+                </div>
+
         </footer>
 
     </body>
