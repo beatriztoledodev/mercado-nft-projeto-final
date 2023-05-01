@@ -264,6 +264,10 @@ body {
     margin-top: 40px;
 }
 
+.footer__menu ul{
+    display: flex;
+}
+
 .footer__titles {
     display: inline-block;
     color: #FFFFFF;
