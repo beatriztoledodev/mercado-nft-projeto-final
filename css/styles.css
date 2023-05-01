@@ -488,15 +488,16 @@ body {
 .container-collection-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 12px;
+    grid-gap: 30px;
     height: 100%;
     padding: 0;
+
+    /*max-width: 1200px;*/
   }
   
   .card-collection {
-    width: 440px;
-    height: 350px;
+    /*width: 440px;*/
+    height: 100%;
   }
 
   .card-collection:hover {
@@ -504,7 +505,8 @@ body {
   }
 
   .img-collection-cards {
-    margin-bottom: 0;
+    display: flex;
+    width: 100%;
   }
 
   .info-subtitle-collection-cards{
@@ -519,7 +521,7 @@ body {
     align-items: center;
     padding: 20px 20px;
   }
-
+/*
   #card-1{
     margin-top: -5px;
   }
@@ -554,7 +556,7 @@ body {
 
   #card-9{
     margin-top: -70px;
-  }
+  }*/
 
   .button-view-more {
     background-color: #716A81;
