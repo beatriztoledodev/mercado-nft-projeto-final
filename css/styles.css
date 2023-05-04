@@ -574,11 +574,9 @@ a:hover {
 
   .button-view-more {
     background-color: #716A81;
-    border: #FFFFFF;
-    border: solid 1px;
+    border: none;
     border-radius: 20px/20px;
     color: #FFFFFF;
-
     text-align: center;
     text-decoration: none;
     display: inline-block;
