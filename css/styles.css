@@ -3,6 +3,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    color: #2A2636;
+}
+
+a:hover {
+    color: #B13CF1;
+}
+
 .navbar {
     background-color: #FFFFFF;
     display: flex;
@@ -264,6 +272,10 @@ body {
     margin-top: 40px;
 }
 
+.footer__menu ul{
+    display: flex;
+}
+
 .footer__titles {
     display: inline-block;
     color: #FFFFFF;
@@ -471,7 +483,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    font-size: 30px;
+    font-size: 28px;
     color: #FFFFFF;
 }
 
@@ -502,6 +514,7 @@ body {
 
   .card-collection:hover {
     transform: scale(1.05);
+    transition: all 300ms ease-in-out;
   }
 
   .img-collection-cards {
@@ -516,7 +529,7 @@ body {
     height: 60px;
     background-color:  #EDECEF;
     text-decoration-color: #373146;
-    font-size: 24px;
+    font-size: 16px;
     border-radius: 0px 0px 20px 20px;
     align-items: center;
     padding: 20px 20px;
