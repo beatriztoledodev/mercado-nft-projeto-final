@@ -34,6 +34,7 @@ a:hover {
 .navbar ul li:hover {
     color: #B13CF1;
     transition: 0.2s;
+    cursor: pointer;
  }
  
  .navbar ul li:hover ul {
