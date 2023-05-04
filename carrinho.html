@@ -6,18 +6,21 @@
         content="nft, marketplace, desenvolvimento web, html, projeto final, coderhouse, css, javascript, web design, front-end, galeria, nft, multimídia, mercado nft, compra de nft">
     <meta name="description"
         content="Projeto final de desenvolvimento web do grupo Beatriz Toledo, Jayme Gabriel e Karoline Prestes. Um e-commerce de NFTs, o Mercado NFT, é o primeiro marketplace de NFTs do Brasil.">
-    <link rel="shortcut icon" href="imagens/logo-mercado-nft.png">
+        <link rel="shortcut icon" href="imagens/logo-mercado-nft.png">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <title>Mercado NFT | Meu carrinho</title>
+
+    <title>Mercado NFT - Meu carrinho</title>
 </head>
 
 <body>
     <header>
 
+       <!--Menu de navegação-->
+       <section>
         <nav class="navbar">
 
             <div class="logo">
@@ -27,7 +30,7 @@
 
             <div class="navbar__menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li>Home</li>
                     <li>Explorar
                         <ul>
                             <li><a href="artes.html"><img src="imagens/icons/artes.svg" class="icons"
@@ -40,7 +43,8 @@
                                         alt="Ícone esportes">Esportes</a></li>
                             <li><a href="#"><img src="imagens/icons/musica.svg" class="icons"
                                         alt="Ícone músicas">Músicas</a></li>
-                            <li><a href="#"><img src="imagens/icons/card.svg" class="icons" alt="Ícone cards">Cards</a>
+                            <li><a href="#"><img src="imagens/icons/card.svg" class="icons"
+                                        alt="Ícone cards">Cards</a>
                             </li>
                             <li><a href="#"><img src="imagens/icons/mundos.svg" class="icons"
                                         alt="Ícone mundos virtuais">Mundos virtuais</a></li>
@@ -48,15 +52,17 @@
                                         alt="Ícone domínios">Domínios</a></li>
                             <li><a href="#"><img src="imagens/icons/utilidades.svg" class="icons"
                                         alt="Ícone utilidades">Utilidades</a></li>
-                            <li><a href="#"><img src="imagens/icons/games.svg" class="icons" alt="Ícone games">Games</a>
+                            <li><a href="#"><img src="imagens/icons/games.svg" class="icons"
+                                        alt="Ícone games">Games</a>
                             </li>
-                            <li><a href="#"><img src="imagens/icons/todos.svg" class="icons" alt="Ícone todos">Todos</a>
+                            <li><a href="#"><img src="imagens/icons/todos.svg" class="icons"
+                                        alt="Ícone todos">Todos</a>
                             </li>
                         </ul>
                     </li>
                     <li>Estatísticas
                         <ul>
-                            <li><a href="estatisticas.html"><img src="imagens/icons/rankings.svg"
+                            <li><a href="estatisticas.html"><a href="#"><img src="imagens/icons/rankings.svg"
                                             class="icons" alt="Ícone lista de rankings">Rankings</a></li>
                             <li><a href="#"><a href="#"><img src="imagens/icons/atividade.svg" class="icons"
                                             alt="Ícone atividade">Atividade</a></li>
@@ -67,8 +73,8 @@
 
             <div class="navbar__actions">
                 <ul>
-                    <li class="navbar__menu--items"><a href="#"><img src="imagens/icons/cart.svg" title="Meu carrinho"
-                                alt="ícone do carrinho de compras" /></a>
+                    <li class="navbar__menu--items"><a href="#"><img src="imagens/icons/cart.svg"
+                                title="Meu carrinho" alt="ícone do carrinho de compras" /></a>
                         <ul>
                             <li><a href="carrinho.html"><img src="imagens/icons/meu-carrinho.svg" class="icons"
                                         alt="Ícone meu carrinho">Meu carrinho</a></li>
@@ -80,8 +86,8 @@
                     </li>
 
 
-                    <li class="navbar__menu--items"><a href="#"><img src="imagens/icons/profile.svg" title="Meu perfil"
-                                alt="ícone do meu perfil" /></a>
+                    <li class="navbar__menu--items"><a href="#"><img src="imagens/icons/profile.svg"
+                                title="Meu perfil" alt="ícone do meu perfil" /></a>
                         <ul>
                             <li><a href="perfil.html"><img src="imagens/icons/meu-perfil.svg" class="icons"
                                         alt="Ícone meu perfil">Perfil</a></li>
@@ -95,242 +101,185 @@
                                         alt="Ícone minha carteira">Minha carteira</a></li>
                             <li><a href="#"><img src="imagens/icons/criar.svg" class="icons" alt="Ícone criar">Criar
                                     conta</a></li>
-                            <li><a href="#"><img src="imagens/icons/sair.svg" class="icons" alt="Ícone sair">Sair</a>
+                            <li><a href="#"><img src="imagens/icons/sair.svg" class="icons"
+                                        alt="Ícone sair">Sair</a>
                             </li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </nav>
-
-        <section class="search-bar">
-            <input type="text" id="texto-busca" placeholder="Barra de pesquisa" class="search-box" />
-        </section>
-
-    </header>
+    </section>
+    <!--Fim do menu de navegação-->
+</header>
 
     <body>
         <!--Carrinho-->
         <main>
 
+            <!--Inicio do Carrinho-->
+    
+            <div class="cart-title">
+                <h1>Meu carrinho</h1>
+            </div>
+    
             <!--Produtos no carrinho-->
-            <section>
-                <div>
-                    <h1>Meu carrinho</h1>
+    
+            <section class="container-cart">
+                <div class="added-items">
+                    <div class="added-items-title">
+                        <p>Itens adicionados</p>
+                    </div>
+                    <div class="card-added-items">
+                        <img src="imagens/carrinho/cart-card-adde-title-1.png" alt="Imagem do card 1">
+                        <div class="text-column">
+                            <div class="text-first-line">
+                                <p> Uma Viagem Noturna...</p>
+                                <p> Categoria</p>
+                                <p> Valor</p>
+                            </div>
+                            <div class="text-second-line">
+                                <p> Joana Beuloi / Joana Beuloi</p>
+                                <p> Artes</p>
+                                <p> 2.5 ETH</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-added-items">
+                        <img src="imagens/carrinho/cart-card-adde-title-2.png" alt="Imagem do card 2">
+                        <div class="text-column">
+                            <div class="text-first-line">
+                                <p> Manobra Radical</p>
+                                <p> Categoria</p>
+                                <p> Valor</p>
+                            </div>
+                            <div class="text-second-line">
+                                <p> Julio Cesar / Carlos Abreu</p>
+                                <p> Esportes</p>
+                                <p> 5.94 ETH</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-added-items">
+                        <img src="imagens/carrinho/cart-card-adde-title-3.png" alt="Imagem do card 3">
+                        <div class="text-column">
+                            <div class="text-first-line">
+                                <p> Esferas em Movimento</p>
+                                <p> Categoria</p>
+                                <p> Valor</p>
+                            </div>
+                            <div class="text-second-line">
+                                <p> Vivian Duarte / Vivian Duarte </p>
+                                <p> Artes</p>
+                                <p> 8.45 ETH</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-added-items">
+                        <img src="imagens/carrinho/cart-card-adde-title-4.png" alt="Imagem do card 4">
+                        <div class="text-column">
+                            <div class="text-first-line">
+                                <p> Mini Bumblebee</p>
+                                <p> Categoria</p>
+                                <p> Valor</p>
+                            </div>
+                            <div class="text-second-line">
+                                <p> Julio Cesar / Carlos Abreu</p>
+                                <p> Colecionáveis</p>
+                                <p> 1.8 ETH</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-added-items">
+                        <img src="imagens/carrinho/cart-card-adde-title-5.png" alt="Imagem do card 5">
+                        <div class="text-column">
+                            <div class="text-first-line">
+                                <p> Monólito ...</p>
+                                <p> Categoria</p>
+                                <p> Valor</p>
+                            </div>
+                            <div class="text-second-line">
+                                <p> Vivian Duarte / Vivian Duarte </p>
+                                <p> Artes</p>
+                                <p> 15.25 ETH</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <section>
-                    <div>
-                        <h2>Itens adicionados</h2>
+    
+                <!--Final dos produtos no carrinho-->
+    
+                <!--Inicio de Pagamento-->
+    
+                <div class="payment">
+                    <div class="added-items-title">
+                        <p>Pagamento</p>
                     </div>
-                    <div>
-                        <table width="766" height="92" border="1">
-                            <tbody>
-                                <tr>
-                                    <td width="92" height="92"><img src="imagens/carrinho/carrinho1.png"
-                                            title="Uma Viagem Noturna Pelo Mundo Escuro" alt="Item 1 do carrinho" />
-                                    </td>
-                                    <td width="241" height="92">
-                                        <h3>Uma Viagem Noturna ...</h3>
-                                        <p>Joana Beuloi / Joana Beuloi</p>
-                                    </td>
-                                    <td width="274" height="92">
-                                        <h3>Categoria</h3>
-                                        <p>Artes</p>
-                                    </td>
-                                    <td width="129" height="92">
-                                        <h3>Valor</h3>
-                                        <p>2.5 ETH</p>
-                                    </td>
-                                    <td width="30" height="92"><img src="imagens/carrinho/menu3pontos.png"
-                                            title="Menu 3 pontos" alt="Menu do carrinho" />
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td width="92" height="92"><img src="imagens/carrinho/carrinho2.png"
-                                            title="Manobra Radical" alt="Item 2 do carrinho" />
-                                    </td>
-                                    <td width="241" height="92">
-                                        <h3>Manobra Radical</h3>
-                                        <p>Julio Cesar / Carlos Abreu</p>
-                                    </td>
-                                    <td width="274" height="92">
-                                        <h3>Categoria</h3>
-                                        <p>Esportes</p>
-                                    </td>
-                                    <td width="129" height="92">
-                                        <h3>Valor</h3>
-                                        <p>5.94 ETH</p>
-                                    </td>
-                                    <td width="30" height="92"><img src="imagens/carrinho/menu3pontos.png"
-                                            title="Menu 3 pontos" alt="Menu do carrinho" />
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td width="92" height="92"><img src="imagens/carrinho/carrinho3.png"
-                                            title="Esferas em Movimento" alt="Item 3 do carrinho" />
-                                    </td>
-                                    <td width="241" height="92">
-                                        <h3>Esferas em Movimento</h3>
-                                        <p>Vivian Duarte / Vivian Duarte</p>
-                                    </td>
-                                    <td width="274" height="92">
-                                        <h3>Categoria</h3>
-                                        <p>Artes</p>
-                                    </td>
-                                    <td width="129" height="92">
-                                        <h3>Valor</h3>
-                                        <p>8.45 ETH</p>
-                                    </td>
-                                    <td width="30" height="92"><img src="imagens/carrinho/menu3pontos.png"
-                                            title="Menu 3 pontos" alt="Menu do carrinho" />
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td width="92" height="92"><img src="imagens/carrinho/carrinho4.png"
-                                            title="Mini Bumblebee" alt="Item 4 do carrinho" />
-                                    </td>
-                                    <td width="241" height="92">
-                                        <h3>Mini Bumblebee</h3>
-                                        <p>Julio Cesar / Julio Cesar</p>
-                                    </td>
-                                    <td width="274" height="92">
-                                        <h3>Categoria</h3>
-                                        <p>Colecionáveis</p>
-                                    </td>
-                                    <td width="129" height="92">
-                                        <h3>Valor</h3>
-                                        <p>1.8 ETH</p>
-                                    </td>
-                                    <td width="30" height="92"><img src="imagens/carrinho/menu3pontos.png"
-                                            title="Menu 3 pontos" alt="Menu do carrinho" />
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td width="92" height="92"><img src="imagens/carrinho/carrinho5.png"
-                                            title="Uma Viagem Noturna Pelo Mundo Escuro" alt="Item 5 do carrinho" />
-                                    </td>
-                                    <td width="241" height="92">
-                                        <h3>Monólitos Sombrios</h3>
-                                        <p>Vivian Duarte / Vivian Duarte</p>
-                                    </td>
-                                    <td width="274" height="92">
-                                        <h3>Categoria</h3>
-                                        <p>Artes</p>
-                                    </td>
-                                    <td width="129" height="92">
-                                        <h3>Valor</h3>
-                                        <p>15.25 ETH</p>
-                                    </td>
-                                    <td width="30" height="92"><img src="imagens/carrinho/menu3pontos.png"
-                                            title="Menu 3 pontos" alt="Menu do carrinho" />
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+    
+                    <div class="Payment-wallet">
+                        <p> Selecione sua carteira:</p>
+                        <div class="wallets">
+                            <div class="wallets-button">
+                                <img src="imagens/carrinho/Metamask.png" alt="Imagem Metamask">
+                            </div>
+                            <div class="wallets-button">
+                                <img src="imagens/carrinho/ledger.png" alt="Imagem Ledger">
+                            </div>
+                            <div class="wallets-button">
+                                <img src="imagens/carrinho/coinbase.png" alt="Imagem Coinbase">
+                            </div>
+                        </div>
                     </div>
-                </section>
+                    <hr class="dotted-line">
+                    <div class="wallet-items-value">
+                        <div class="wallet-items">
+                            <p class="wallet-title">Itens</p>
+                            <P>Uma Viagem Noturna pelo Mundo Escuro</P>
+                            <p>Manobra Radical</p>
+                            <p>Esferas em Movimento</p>
+                            <p>Mini Numblebee</p>
+                            <p>Monólitos Sombrios</p>
+                            <p class="wallet-title">Subtotal</p>
+                        </div>
+    
+                        <div class="wallet-value">
+                            <p class="wallet-title">Valor</p>
+                            <P>2.5 ETH</P>
+                            <p>5.94 ETH</p>
+                            <p>8.45 ETH</p>
+                            <p>1.8 ETH</p>
+                            <p>15.25 ETH</p>
+                            <p class="wallet-title">33.94 ETH</p>
+                        </div>
+                    </div>
+                    <hr class="dotted-line">
+                    <div class="wallet-total">
+                        <div class="wallet-total-title">
+                            <p> Taxa</p>
+                            <p> Taxa</p>
+                            <p class="wallet-title"> Total</p>
+                        </div>
+                        <div class="wallet-total-value">
+                            <p> 0.1 ETH</p>
+                            <p> 0.1 ETH</p>
+                            <p class="wallet-title"> 34.14 ETH</p>
+                        </div>
+                    </div>
+                    <div class="wallet-button">
+                        <div>
+                            <button class="wallet-button-end">Concluir a compra</button>
+                        </div>
+                        <div>
+                            <button class="wallet-button-continue">Continuar comprando</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!--Final de Pagamento-->
+    
             </section>
             <!--Final dos produtos no carrinho-->
-
-            <br>
-            <br>
-
-            <!--Valores e pagamento-->
-            <section>
-                <section>
-                    <table width="500" height="152" border="1">
-                        <thead>
-                            <tr>
-                                <th width="500" height="32">Selecione a sua carteira</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td width="500" height="120">
-                                    <button type="button"> <img src="imagens/carrinho/logo-metamask.png" /></button>
-                                    <button type="button"> <img src="imagens/carrinho/logo-ledger.png" /></button>
-                                    <button type="button"> <img src="imagens/carrinho/logo-coinbase.png" /></button>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-
-                <br>
-                <hr>
-                <br>
-
-                <section>
-                    <table width="500" height="272" border="1">
-                        <thead>
-                            <tr>
-                                <th width="400" height="32">Itens</th>
-                                <th width="100" height="32">Valor</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td width="400" height="40">Uma Viagem Noturna pelo Mundo Escuro</td>
-                                <td>2.5 ETH</td>
-                            </tr>
-                            <tr>
-                                <td width="400" height="40">Manobra Radical</td>
-                                <td>5.94 ETH</td>
-                            </tr>
-                            <tr>
-                                <td width="400" height="40">Esferas em Movimento</td>
-                                <td>8.45 ETH</td>
-                            </tr>
-                            <tr>
-                                <td width="400" height="40">Mini Numblebee</td>
-                                <td>1.8 ETH</td>
-                            </tr>
-                            <tr>
-                                <td width="400" height="40">Monólitos Sombrios</td>
-                                <td>15.25 ETH</td>
-                            </tr>
-                            <tr>
-                                <td width="400" height="40">Subtotal</td>
-                                <td>33.94 ETH</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-
-                <br>
-                <hr>
-                <br>
-
-                <section>
-                    <table width="500" height="135" border="1">
-                        <tbody>
-                            <tr>
-                                <td width="400" height="40">Taxa</td>
-                                <td width="100" height="40">0.1 ETH</td>
-                            </tr>
-                            <tr>
-                                <td width="400" height="40">Taxa</td>
-                                <td width="100" height="40">0.1 ETH</td>
-                            </tr>
-                            <tr>
-                                <td width="400" height="40">Total</td>
-                                <td width="100" height="40">34.14 ETH</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-
-                <br>
-                <br>
-
-                <button>Concluir a compra</button>
-                <button>Continuar comprando</button>
-            </section>
-            <!--Fim de valores e pagamento-->
+    
         </main>
 
         <br>
@@ -407,10 +356,7 @@
 
         </footer>
 
-</main>
 
-
-<script src="./js/main.js"></script>
-</body>
+    </body>
 
 </html>

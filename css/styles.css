@@ -707,3 +707,180 @@ a:hover {
   }
 
 /* Final pagina Artes */
+
+.container-cart {
+    display: grid;
+    grid-template-columns: 60% 2% 40%;
+    justify-content: center;
+    margin: 5%;
+}
+
+.cart-title {
+    color: #FFFFFF;
+}
+
+/* Inicio card Itens adicionados */
+
+.added-items {
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+    background-color: #FDFDFD;
+    border-radius: 20px/20px;
+    padding: 20px;
+    height: auto;
+}
+
+.added-items-title {
+    font-weight: bold;
+    font-weight: 700;
+}
+
+.card-added-items {
+    background-color: #F4F4F4;
+    border-radius: 20px/20px;
+    display: flex;
+    margin-bottom: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.card-added-items:hover {
+    background-color: #ADA9B7;
+}
+
+.card-added-items img {
+    width: 10%;
+    height: auto;
+    margin: 2%;
+}
+
+.text-first-line {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+    justify-items: end;
+    margin-top: 1%;
+}
+
+.text-second-line {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+    justify-items: end;
+    margin-top: 1%;
+}
+
+/* Final card Itens adicionados */
+
+/* Inicio card Pagamento */
+.payment {
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+    background-color: #FDFDFD;
+    border-radius: 20px/20px;
+    height: auto;
+    padding: 2%;
+}
+
+.wallets {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.wallets-button {
+    background-color: #F4F4F4;
+    width: 25%;
+    height: 30px;
+    border-radius: 10px/10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease;
+    
+}
+
+.wallets-button:hover {
+    background-color: #ADA9B7;
+}
+
+.dotted-line {
+    border: none;
+    border-top: 4px dotted #D3D3D3;
+    height: 0;
+    margin: 2em 0;
+  }
+
+.wallet-items-value{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wallet-title {
+    font-weight: 700;
+}
+
+.wallet-total {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wallet-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wallet-button-end{
+    width: 453px;
+    height: 46px;
+    background-color: #B13CF1;
+    border: none;
+    border-radius: 10px/10px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    transition: background-color 0.10s ease;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+.wallet-button-end:hover{
+    background-color: #CB7CF6;
+}
+
+.wallet-button-end:active {
+    background-color: #7E2BAB;
+}
+
+.wallet-button-continue {
+    width: 453px;
+    height: 46px;
+    background-color: #F8F8F8;
+    border: 2;
+    border-color:#B13CF1 ;
+    border-radius: 10px/10px;
+    color: #B13CF1;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    transition: background-color 0.10s ease;
+    cursor: pointer;
+}
+
+.wallet-button-continue:hover {
+    background-color: #E7C3FB;
+}
+
+.wallet-button-continue:active {
+    background-color: #CB7CF6;
+    color: #F8F8F8 ;
+}
+
+/* Final card Pagamento */
