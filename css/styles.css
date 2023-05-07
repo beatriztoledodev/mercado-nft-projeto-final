@@ -180,6 +180,11 @@ a:hover {
     flex-direction: row;
     gap: 10px;
     justify-content: center;
+    transition: all 300ms ease-in-out;
+}
+
+.cards__overview:hover {
+  transform: scale(1.05);
 }
 
 .overview h2 {
