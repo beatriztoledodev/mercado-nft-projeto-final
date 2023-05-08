@@ -174,17 +174,17 @@ a:hover {
     background-color: #B13CF1;
 }
 
+.main__btn:hover {
+    background-color: #B13CF1;
+    cursor: pointer;
+}
+
 .cards__overview {
     margin-top: 60px;
     display: flex;
     flex-direction: row;
     gap: 10px;
     justify-content: center;
-    transition: all 300ms ease-in-out;
-}
-
-.cards__overview:hover {
-  transform: scale(1.05);
 }
 
 .overview h2 {
@@ -237,6 +237,14 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+}
+
+.gallery__images {
+    transition: all 300ms ease-in-out;
+}
+
+.gallery__images:hover {
+    transform: scale(1.05);
 }
 
 .ver-mais {
