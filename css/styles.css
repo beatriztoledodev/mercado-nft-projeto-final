@@ -1067,9 +1067,42 @@ margin-left: 2%;
     margin: 1%;
     padding: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     color: #F8F8F8;
     width: 1328px;
+}
+
+.ranking-title-nft {
+    width: 20%;
+}
+
+.ranking-title-volume {
+    width: 10%;
+}
+
+.ranking-title-valuation {
+    width: 10%;
+}
+
+.ranking-title-value {
+    width: 10%;
+}
+
+.ranking-title-negotiation {
+    width: 10%;
+}
+
+.ranking-title-owners {
+    width: 10%;
+}
+
+.ranking-title-item {
+    width: 20%;
+}
+
+.card-static-ranking img{
+    width: 6%;
+    margin-right: -6%;
 }
 
 .static-ranking {
