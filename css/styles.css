@@ -904,3 +904,169 @@ a:hover {
 }
 
 /* Final card Pagamento */
+
+/* Inicio Estatisticas */
+
+.static-main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.static-title {
+color: #F8F8F8;
+margin-left: 2%;
+}
+
+.buttons-static-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.button-static-category{
+    width: 398px;
+}
+.button-static-category ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.button-static-category li {
+    position: relative;
+    width: 398px;
+}
+
+.button-static-category li a {
+  display: block;
+  padding: 10px;
+  background: #F8F8F8;
+  color: #2A2636;
+  text-decoration: none;
+  border-radius: 1%/1%;
+}
+
+.button-static-category-submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #F0F0F0;
+    padding: 0;
+}
+
+.button-static-category li:hover .button-static-category-submenu {
+    display: block;
+}
+
+.button-static-category-submenu li {
+    display: block;
+}
+
+.button-static-category-submenu li a {
+    background: #F0F0F0;
+    transition: background 0.3s ease;
+}
+
+.button-static-category-submenu li a:hover {
+    background: #ccc;
+}
+
+.button-static-period {
+    width: 418px;
+    display: flex;
+  justify-content: space-between;
+}
+
+.button-static-period ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.button-static-period li {
+    margin-right: 0px;
+    width: 30%;
+}
+
+.button-static-period li:last-child {
+    margin-right: 0;
+}
+
+.button-static-period li a {
+    display: block;
+    padding: 10px;
+    background: #f4f4f4;
+    color: #333;
+    text-decoration: none;
+}
+
+.button-static-period li a:hover {
+        background: #ccc;
+}
+
+.ranking-title {
+    list-style: none;
+    margin: 1%;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    color: #F8F8F8;
+    width: 1328px;
+}
+
+.static-ranking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.card-static-ranking {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: background-color 0.5s ease;
+    width: 1328px;
+    background-color: #463F59;
+    border-radius: 20px/20px;
+    height: 102px;
+    color: #F8F8F8;
+  }
+  
+
+.card-static-ranking:hover {
+    background-color: #716A81;
+}
+
+.button-static{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+}
+
+.button-view-more {
+    background-color: #716A81;
+    border: none;
+    border-radius: 20px/20px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.button-view-more:hover {
+    background-color: #B13CF1;}
+
+/* Final Estatisticas */

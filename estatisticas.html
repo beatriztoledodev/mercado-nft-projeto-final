@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <title>Mercado NFT | Estatísticas</title>
 </head>
 
@@ -56,8 +56,8 @@
                     </li>
                     <li>Estatísticas
                         <ul>
-                            <li><a href="estatisticas.html"><img src="imagens/icons/rankings.svg"
-                                            class="icons" alt="Ícone lista de rankings">Rankings</a></li>
+                            <li><a href="estatisticas.html"><img src="imagens/icons/rankings.svg" class="icons"
+                                        alt="Ícone lista de rankings">Rankings</a></li>
                             <li><a href="#"><a href="#"><img src="imagens/icons/atividade.svg" class="icons"
                                             alt="Ícone atividade">Atividade</a></li>
                         </ul>
@@ -109,175 +109,192 @@
 
     </header>
 
-    <main>
-        <section>
+    <main class="static-main">
+        <div class="static-title">
+            <h1>Rankings</h1>
+        </div>
 
-            <!--Inico da tabela de rankings-->
-            <section>
-                <table width="1328" height="1393" border="1">
+        <section class="container-static">
+            <di class="buttons-static-menu">
+                <div class="button-static-category">
+                    <ul>
+                        <li><a href="#">Selecione a categoria</a>
+                            <ul class="button-static-category-submenu">
+                                <li><a href="#">Artes</a></li>
+                                <li><a href="#">Colecionaveis</a></li>
+                                <li><a href="#">Fotografia</a></li>
+                                <li><a href="#">Esporte</a></li>
+                                <li><a href="#">Música</a></li>
+                                <li><a href="#">Cards</a></li>
+                                <li><a href="#">Mundos virtuais</a></li>
+                                <li><a href="#">Dominios</a></li>
+                                <li><a href="#">Utilidades</a></li>
+                                <li><a href="#">Games</a></li>
+                                <li><a href="#">Todos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="button-static-period">
+                    <ul>
+                        <li><a href="#">1h</a></li>
+                        <li><a href="#">6h</a></li>
+                        <li><a href="#">24h</a></li>
+                        <li><a href="#">7d</a></li>
+                        <li><a href="#">30d</a></li>
+                        <li><a href="#">Todos</a></li>
+                    </ul>
+                </div>
+            </di>
+            <div class="static-ranking">
+                <div class="ranking-title">
 
-                    <!--Cabeçalho da tabela-->
-                    <thead>
-                        <tr>
-                            <th width="261" height="21" colspan="2">NFT</th>
-                            <th width="121" height="21">Volume</th>
-                            <th width="261" height="21">Valorização%</th>
-                            <th width="119" height="21">Valor base</th>
-                            <th width="137" height="21">Negociações</th>
-                            <th width="144" height="21">Donos únicos</th>
-                            <th width="190" height="21">Item</th>
-                        </tr>
-                    </thead>
-                    <!--Fim do cabeçalho da tabela-->
+                    <p>NFT</p>
+                    <p>Volume</p>
+                    <p>Valorização%</p>
+                    <p>Valor Base</p>
+                    <p>Negociações</p>
+                    <p>Donos únicos</p>
+                    <p>Item</p>
+                </div>
+                <div class="card-static-ranking">
+                    <img src="imagens/rankings/imagem-ranking-01.png" title="Uma Viagem Noturna Pelo Mundo Escuro"
+                        alt="Imagem do card 1">
+                    <p>Uma Viagem Noturna...</p>
+                    <p>4.811 ETH</p>
+                    <p>+511%</p>
+                    <p>2.05 ETH</p>
+                    <p>2.224</p>
+                    <p>32.877</p>
+                    <p>2.811 de 100.000</p>
+                </div>
 
-                    <!--Corpo da tabela-->
-                    <tbody>
-                        <tr>
-                            <td width="76" height="102">
-                                <img src="imagens/rankings/imagem-ranking-01.png"
-                                    title="Uma Viagem Noturna Pelo Mundo Escuro" alt="Imagem do card 1" />
-                            </td>
-                            <td width="161" height="102">Uma viagem noturna pelo mundo escuro</td>
-                            <td width="121" height="102">4.811 ETH</td>
-                            <td width="117" height="102">+511%</td>
-                            <td width="119" height="102">2.05 ETH</td>
-                            <td width="137" height="102">2.224</td>
-                            <td width="144" height="102">32.877</td>
-                            <td width="190" height="102">2.811 de 100.000</td>
-                        </tr>
-                        <tr>
-                            <td width="76" height="102">
-                                <img src="imagens/rankings/imagem-ranking-02.png" title="A Construção do Enigma"
-                                    alt="Imagem do card 2" />
-                            </td>
-                            <td width="161" height="102">A construção do Enigma</td>
-                            <td width="121" height="102">2.806 ETH</td>
-                            <td width="117" height="102">+690%</td>
-                            <td width="119" height="102">77.50 ETH</td>
-                            <td width="137" height="102">37</td>
-                            <td width="144" height="102">5.917</td>
-                            <td width="190" height="102">320 de 9.998</td>
-                        </tr>
-                        <tr>
-                            <td width="76" height="102"><img src="imagens/rankings/imagem-ranking-03.png"
-                                    alt="Imagem do card 3"> </td>
-                            <td width="161" height="102">Perdido no Espaço</td>
-                            <td width="121" height="102">2.246 ETH</td>
-                            <td width="117" height="102">+98%</td>
-                            <td width="119" height="102">16.50 ETH</td>
-                            <td width="137" height="102">140</td>
-                            <td width="144" height="102">11.848</td>
-                            <td width="190" height="102">553 de 19.455</td>
-                        </tr>
-                        <tr>
-                            <td width="76" height="102"><img src="imagens/rankings/imagem-ranking-04.png"
-                                    alt="Imagem do card 4"> </td>
-                            <td width="161" height="102">Monólitos Sombrios</td>
-                            <td width="121" height="102">1.953 ETH</td>
-                            <td width="117" height="102">326%</td>
-                            <td width="119" height="102">15.25 ETH</td>
-                            <td width="137" height="102">129</td>
-                            <td width="144" height="102">4.970</td>
-                            <td width="190" height="102">464 de 10.000</td>
-                        </tr>
-                        <tr>
-                            <td width="76" height="102"><img src="imagens/rankings/imagem-ranking-05.png"
-                                    alt="Imagem do card 5"> </td>
-                            <td width="161" height="102">Esferas em Movimento</td>
-                            <td width="121" height="102">1.806 ETH</td>
-                            <td width="117" height="102">+797%%</td>
-                            <td width="119" height="102">8.45 ETH</td>
-                            <td width="137" height="102">233</td>
-                            <td width="144" height="102">6.530</td>
-                            <td width="190" height="102">73 de 10.000</td>
-                        </tr>
-                        <tr>
-                            <td width="76" height="102"><img src="imagens/rankings/imagem-ranking-06.png"
-                                    alt="Imagem do card 6"> </td>
-                            <td width="161" height="102">Pensamentos em Marte</td>
-                            <td width="121" height="102">1.740 ETH</td>
-                            <td width="117" height="102">+256%</td>
-                            <td width="119" height="102">1.79 ETH</td>
-                            <td width="137" height="102">1.013</td>
-                            <td width="144" height="102">7.388</td>
-                            <td width="190" height="102">719 de 19.950</td>
-                        </tr>
-                        <tr>
-                            <td width="76" height="102"><img src="imagens/rankings/imagem-ranking-07.png"
-                                    alt="Imagem do card 7"> </td>
-                            <td width="161" height="102">Cyber Óasis</td>
-                            <td width="121" height="102">1.677 ETH</td>
-                            <td width="117" height="102">+347%</td>
-                            <td width="119" height="102">6.25 ETH</td>
-                            <td width="137" height="102">292</td>
-                            <td width="144" height="102">9.640</td>
-                            <td width="190" height="102">1.088 de 19.453</td>
-                        </tr>
-                        <tr>
-                            <td width="76" height="102"><img src="imagens/rankings/imagem-ranking-08.png"
-                                    alt="Imagem do card 8"> </td>
-                            <td width="161" height="102">Manobra Radical</td>
-                            <td width="121" height="102">1.278 ETH</td>
-                            <td width="117" height="102">+106%</td>
-                            <td width="119" height="102">5.94 ETH</td>
-                            <td width="137" height="102">222</td>
-                            <td width="144" height="102">5.564</td>
-                            <td width="190" height="102">513 de 10.000</td>
-                        </tr>
-                        <tr>
-                            <td width="76" height="102"><img src="imagens/rankings/imagem-ranking-09.png"
-                                    alt="Imagem do card 9"> </td>
-                            <td width="161" height="102">Zimbra em seu Casulo</td>
-                            <td width="121" height="102">1.017 ETH</td>
-                            <td width="117" height="102">+939%</td>
-                            <td width="119" height="102">8 ETH</td>
-                            <td width="137" height="102">133</td>
-                            <td width="144" height="102">5.739</td>
-                            <td width="190" height="102">333 de 9.602</td>
-                        </tr>
-                        <tr>
-                            <td width="76" height="102"><img src="imagens/rankings/imagem-ranking-10.png"
-                                    alt="Imagem do card 10"> </td>
-                            <td width="161" height="102">Gato do Futuro</td>
-                            <td width="121" height="102">1.005 ETH</td>
-                            <td width="117" height="102">+156%</td>
-                            <td width="119" height="102">6.30 ETH</td>
-                            <td width="137" height="102">170</td>
-                            <td width="144" height="102">4.589</td>
-                            <td width="190" height="102">385 de 8.888</td>
-                        </tr>
-                        <tr>
-                            <td width="76" height="102"><img src="imagens/rankings/imagem-ranking-11.png"
-                                    alt="Imagem do card 11"> </td>
-                            <td width="161" height="102">Por do Sol em Outro Planeta</td>
-                            <td width="121" height="102">959 ETH</td>
-                            <td width="117" height="102">+102%</td>
-                            <td width="119" height="102">0.81 ETH</td>
-                            <td width="137" height="102">1.148</td>
-                            <td width="144" height="102">1.728</td>
-                            <td width="190" height="102">561 de 5.314</td>
-                        </tr>
-                        <tr>
-                            <td width="76" height="102"><img src="imagens/rankings/imagem-ranking-12.png"
-                                    alt="Imagem do card 12"> </td>
-                            <td width="161" height="102"> Dino</td>
-                            <td width="121" height="102">800 ETH</td>
-                            <td width="117" height="102">+2.510%</td>
-                            <td width="119" height="102">1.25 ETH</td>
-                            <td width="137" height="102">683</td>
-                            <td width="144" height="102">5.818</td>
-                            <td width="190" height="102">281 de 10.000</td>
-                        </tr>
-                    </tbody>
-                    <!--Fim do corpo da tabela-->
-                </table>
-            </section>
-            <!--Fim da tabela de rankings-->
+                <div class="card-static-ranking">
+                    <img src="imagens/rankings/imagem-ranking-02.png" title="A Construção do Enigma"
+                        alt="Imagem do card 2" />
+                    <p>A construção do Enigma</p>
+                    <p>2.806 ETH</p>
+                    <p>+690%</p>
+                    <p>77.50 ETH</p>
+                    <p>37</p>
+                    <p>5.917</p>
+                    <p>2.811 de 100.000</p>
+                </div>
 
-            <div>
-                <button>Ver mais</button>
-            </div>
+                <div class="card-static-ranking">
+                    <img src="imagens/rankings/imagem-ranking-03.png" alt="Imagem do card 3">
+                    <p>Perdido no Espaço</p>
+                    <p>2.246 ETH</p>
+                    <p>+98%</p>
+                    <p>16.50 ETH</p>
+                    <p>140</p>
+                    <p>11.848</p>
+                    <p>553 de 19.455</p>
+                </div>
+
+                <div class="card-static-ranking">
+                    <img src="imagens/rankings/imagem-ranking-04.png" alt="Imagem do card 4">
+                    <p>Monólitos Sombrios</p>
+                    <p>1.953 ETH</p>
+                    <p>326%</p>
+                    <p>15.25 ETH</p>
+                    <p>129</p>
+                    <p>4.970</p>
+                    <p>464 de 10.000</p>
+                </div>
+
+                <div class="card-static-ranking">
+                    <img src="imagens/rankings/imagem-ranking-05.png" alt="Imagem do card 5">
+                    <p>Esferas em Movimentos</p>
+                    <p>1.806 ETH</p>
+                    <p>+797%</p>
+                    <p>8.45 ETH</p>
+                    <p>233</p>
+                    <p>6.530</p>
+                    <p>73 de 10.000</p>
+                </div>
+
+                <div class="card-static-ranking">
+                    <img src="imagens/rankings/imagem-ranking-06.png" alt="Imagem do card 6">
+                    <p>Pensamentos em Marte</p>
+                    <p>1.740 ETH</p>
+                    <p>+256%</p>
+                    <p>1.79 ETH</p>
+                    <p>1.013</p>
+                    <p>7.388</p>
+                    <p>719 de 19.950</p>
+                </div>
+
+                <div class="card-static-ranking">
+                    <img src="imagens/rankings/imagem-ranking-07.png" alt="Imagem do card 7">
+                    <p>Cyber Óasis</p>
+                    <p>1.677 ETH</p>
+                    <p>+347%</p>
+                    <p>6.25 ETH</p>
+                    <p>292</p>
+                    <p>9.640</p>
+                    <p>1.088 de 19.453</p>
+                </div>
+
+                <div class="card-static-ranking">
+                    <img src="imagens/rankings/imagem-ranking-08.png" alt="Imagem do card 8">
+                    <p>Manobra Radical</p>
+                    <p>1.278 ETH</p>
+                    <p>+106%</p>
+                    <p>5.94 ETH</p>
+                    <p>222</p>
+                    <p>5.739</p>
+                    <p>513 de 10.000</p>
+                </div>
+
+                <div class="card-static-ranking">
+                    <img src="imagens/rankings/imagem-ranking-09.png" alt="Imagem do card 9">
+                    <p>Zimbra em seu Casulo</p>
+                    <p>1.017 ETH</p>
+                    <p>+939%</p>
+                    <p>8 ETH</p>
+                    <p>133</p>
+                    <p>5.739</p>
+                    <p>333 de 9.602</p>
+                </div>
+
+                <div class="card-static-ranking">
+                    <img src="imagens/rankings/imagem-ranking-10.png" alt="Imagem do card 10">
+                    <p>Gato do Futuro</p>
+                    <p>1.005 ETH</p>
+                    <p>+156%</p>
+                    <p>6.30 ETH</p>
+                    <p>170</p>
+                    <p>4.589</p>
+                    <p>385 de 8.888</p>
+                </div>
+
+                <div class="card-static-ranking">
+                    <img src="imagens/rankings/imagem-ranking-11.png" alt="Imagem do card 11">
+                    <p>Por do Sol ...</p>
+                    <p>959 ETH</p>
+                    <p>+102%</p>
+                    <p>0.81 ETH</p>
+                    <p>1.148</p>
+                    <p>1.728</p>
+                    <p>561 de 5.314</p>
+                </div>
+
+                <div class="card-static-ranking">
+                    <img src="imagens/rankings/imagem-ranking-12.png" alt="Imagem do card 12">
+                    <p>Dino</p>
+                    <p>800 ETH</p>
+                    <p>+2.510%</p>
+                    <p>1.25 ETH</p>
+                    <p>683</p>
+                    <p>5.818</p>
+                    <p>281 de 10.000</p>
+                </div>
+                <div class="button-static">
+                    <button class="button-view-more">Ver mais</button>
+                </div>
         </section>
+
 
     </main>
     <!--Fim do conteúdo principal-->
@@ -306,57 +323,57 @@
             </div>
 
             <div class="footer__menu">
-                    <ul>
-                        <li class="footer__titles">Home</li>
-                        <li class="footer__titles">Explorar
-                            <ul>
-                                <li class="footer__titles--list"><a href="artes.html">Artes</a></li>
-                                <li class="footer__titles--list"><a href="#">Colecionáveis</a></li>
-                                <li class="footer__titles--list"><a href="#">Fotografia</a></li>
-                                <li class="footer__titles--list"><a href="#">Esporte</a></li>
-                                <li class="footer__titles--list"><a href="#">Música</a></li>
-                                <li class="footer__titles--list"><a href="#">Cards</a></li>
-                                <li class="footer__titles--list"><a href="#">Mundos virtuais</a></li>
-                                <li class="footer__titles--list"><a href="#">Domínios</a></li>
-                                <li class="footer__titles--list"><a href="#">Utilidades</a></li>
-                                <li class="footer__titles--list"><a href="#">Games</a></li>
-                                <li class="footer__titles--list"><a href="#">Todos</a></li>
-                            </ul>
-                        </li>
-                        
-                        <li class="footer__titles">Estatísticas
-                            <ul>
-                                <li class="footer__titles--list"><a href="estatisticas.html">Rankings</a></li>
-                                <li class="footer__titles--list"><a href="#">Atividades</a></li>
-                            </ul>
-                        </li>
-                        <li class="footer__titles">Carrinho
-                            <ul>
-                                <li class="footer__titles--list"><a href="carrinho.html">Meu carrinho</a></li>
-                                <li class="footer__titles--list"><a href="#">Últimas compras</a></li>
-                                <li class="footer__titles--list"><a href="#">Checkout</a></li>
-                            </ul>
-                        </li>
-                        <li class="footer__titles">Conta
-                            <ul>
-                                <li class="footer__titles--list"><a href="carrinho.html">Perfil</a></li>
-                                <li class="footer__titles--list"><a href="#">Favoritos</a></li>
-                                <li class="footer__titles--list"><a href="#">Watchlist</a></li>
-                                <li class="footer__titles--list"><a href="#">Minhas coleções</a></li>
-                                <li class="footer__titles--list"><a href="#">Criar</a></li>
-                                <li class="footer__titles--list"><a href="#">Minha carteira</a></li>
-                                <li class="footer__titles--list"><a href="#">Modo noturno</a></li>
-                            </ul>
-                        </li>
-                    </ul>   
-        </div>
+                <ul>
+                    <li class="footer__titles">Home</li>
+                    <li class="footer__titles">Explorar
+                        <ul>
+                            <li class="footer__titles--list"><a href="artes.html">Artes</a></li>
+                            <li class="footer__titles--list"><a href="#">Colecionáveis</a></li>
+                            <li class="footer__titles--list"><a href="#">Fotografia</a></li>
+                            <li class="footer__titles--list"><a href="#">Esporte</a></li>
+                            <li class="footer__titles--list"><a href="#">Música</a></li>
+                            <li class="footer__titles--list"><a href="#">Cards</a></li>
+                            <li class="footer__titles--list"><a href="#">Mundos virtuais</a></li>
+                            <li class="footer__titles--list"><a href="#">Domínios</a></li>
+                            <li class="footer__titles--list"><a href="#">Utilidades</a></li>
+                            <li class="footer__titles--list"><a href="#">Games</a></li>
+                            <li class="footer__titles--list"><a href="#">Todos</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="footer__titles">Estatísticas
+                        <ul>
+                            <li class="footer__titles--list"><a href="estatisticas.html">Rankings</a></li>
+                            <li class="footer__titles--list"><a href="#">Atividades</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer__titles">Carrinho
+                        <ul>
+                            <li class="footer__titles--list"><a href="carrinho.html">Meu carrinho</a></li>
+                            <li class="footer__titles--list"><a href="#">Últimas compras</a></li>
+                            <li class="footer__titles--list"><a href="#">Checkout</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer__titles">Conta
+                        <ul>
+                            <li class="footer__titles--list"><a href="carrinho.html">Perfil</a></li>
+                            <li class="footer__titles--list"><a href="#">Favoritos</a></li>
+                            <li class="footer__titles--list"><a href="#">Watchlist</a></li>
+                            <li class="footer__titles--list"><a href="#">Minhas coleções</a></li>
+                            <li class="footer__titles--list"><a href="#">Criar</a></li>
+                            <li class="footer__titles--list"><a href="#">Minha carteira</a></li>
+                            <li class="footer__titles--list"><a href="#">Modo noturno</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
 
     </footer>
 
-</main>
+    </main>
 
 
-<script src="./js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
