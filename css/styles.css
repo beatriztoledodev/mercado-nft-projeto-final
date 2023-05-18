@@ -781,23 +781,31 @@ a:hover {
 /* Final pagina Artes */
 
 .container-cart {
-    display: grid;
-    grid-template-columns: 60% 2% 40%;
+    display: flex;
+    gap: 20px;
     justify-content: center;
-    margin: 5%;
 }
 
-.cart-title {
+.cart__title {
+    display: flex;
+    justify-content: flex-start;
     color: #FFFFFF;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    margin: 40px 0 20px 310px;
+
 }
 
 /* Inicio card Itens adicionados */
 
 .added-items {
-    grid-column: 1 / 2;
-    grid-row: 1 / 1;
+    width: 750px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
     background-color: #FDFDFD;
-    border-radius: 20px/20px;
+    border-radius: 20px 20px;
     padding: 20px;
     height: auto;
 }
@@ -826,31 +834,39 @@ a:hover {
 }
 
 .text-first-line {
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    align-items: center;
-    justify-items: end;
-    margin-top: 1%;
+    display: flex;
+    gap: 100px;
+    margin: 10px;
+    font-weight: bold;
+    flex-grow: 1;
 }
 
 .text-second-line {
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    align-items: center;
-    justify-items: end;
-    margin-top: 1%;
+    display: flex;
+    gap: 100px;
+    margin: 10px;
+    flex-grow: 1;
 }
+
+.text-column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 
 /* Final card Itens adicionados */
 
 /* Inicio card Pagamento */
 .payment {
+    width: 450px;
     grid-column: 3 / 4;
     grid-row: 1 / 4;
     background-color: #FDFDFD;
     border-radius: 20px/20px;
-    height: auto;
-    padding: 2%;
+    height: 630px;
+    padding: 20px;
+    margin-right: 150px;
 }
 
 .wallets {
@@ -861,9 +877,9 @@ a:hover {
 
 .wallets-button {
     background-color: #F4F4F4;
-    width: 25%;
+    width: 40px;
     height: 30px;
-    border-radius: 10px/10px;
+    border-radius: 10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -903,10 +919,11 @@ a:hover {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-top: 20px;
 }
 
 .wallet-button-end{
-    width: 453px;
+    width: 400px;
     height: 46px;
     background-color: #B13CF1;
     border: none;
@@ -916,7 +933,7 @@ a:hover {
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 16px;
     transition: background-color 0.10s ease;
     cursor: pointer;
     margin-bottom: 2%;
@@ -930,7 +947,7 @@ a:hover {
 }
 
 .wallet-button-continue {
-    width: 453px;
+    width: 400px;
     height: 46px;
     background-color: #F8F8F8;
     border: 2;
@@ -941,7 +958,7 @@ a:hover {
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 16px;
     transition: background-color 0.10s ease;
     cursor: pointer;
 }
