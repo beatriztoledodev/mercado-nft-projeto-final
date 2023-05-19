@@ -968,7 +968,7 @@ a:hover {
 
 .static-title {
 color: #F8F8F8;
-margin-left: 2%;
+margin-left: 87px;
 }
 
 .buttons-static-menu{
@@ -978,6 +978,7 @@ margin-left: 2%;
     align-content: center;
     flex-wrap: wrap;
     align-items: center;
+    margin-left: 87px;
 }
 .button-static-category{
     width: 398px;
@@ -1064,45 +1065,55 @@ margin-left: 2%;
 
 .ranking-title {
     list-style: none;
-    margin: 1%;
-    padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 20px 0 10px 20px;
     color: #F8F8F8;
-    width: 1328px;
 }
 
 .ranking-title-nft {
-    width: 20%;
+    display: flex;
+    justify-content: center;
+    width: 370px;
 }
 
 .ranking-title-volume {
-    width: 10%;
+    display: flex;
+    justify-content: center;
+    width: 120px;
 }
 
 .ranking-title-valuation {
-    width: 10%;
+    display: flex;
+    justify-content: center;
+    width: 120px;
 }
 
 .ranking-title-value {
-    width: 10%;
+    display: flex;
+    justify-content: center;
+    width: 120px;
 }
 
 .ranking-title-negotiation {
-    width: 10%;
+    display: flex;
+    justify-content: center;
+    width: 120px;
 }
 
 .ranking-title-owners {
-    width: 10%;
+    display: flex;
+    justify-content: center;
+    width: 120px;
 }
 
 .ranking-title-item {
-    width: 20%;
-}
-
-.card-static-ranking img{
-    width: 6%;
-    margin-right: -6%;
+    display: flex;
+    justify-content: center;
+    width: 200px;
 }
 
 .static-ranking {
@@ -1125,6 +1136,21 @@ margin-left: 2%;
     color: #F8F8F8;
   }
   
+  .ranking-title-nft-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 375px;
+    align-items: center;
+  }
+
+  .ranking-title-nft-1 img{
+    width: 65px;
+    margin-right: -6%;
+}
+
+.ranking-title-nft-1 p{
+    width: 181px;
+}
 
 .card-static-ranking:hover {
     background-color: #716A81;
