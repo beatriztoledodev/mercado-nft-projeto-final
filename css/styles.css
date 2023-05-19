@@ -781,38 +781,34 @@ a:hover {
 /* Final pagina Artes */
 
 .container-cart {
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 60% 2% 40%;
     justify-content: center;
+    margin: 2% 5% 2% 5%;
 }
 
-.cart__title {
-    display: flex;
-    justify-content: flex-start;
+.cart-title {
     color: #FFFFFF;
-    align-items: center;
-    gap: 10px;
-    font-size: 16px;
-    margin: 40px 0 20px 310px;
-
+    margin-left: 87px;
+    margin-top: 60px;
 }
 
 /* Inicio card Itens adicionados */
 
 .added-items {
-    width: 750px;
-    margin-left: 150px;
-    display: flex;
-    flex-direction: column;
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
     background-color: #FDFDFD;
-    border-radius: 20px 20px;
-    padding: 20px;
+    border-radius: 20px/20px;
+    padding: 30px;
     height: auto;
 }
 
 .added-items-title {
     font-weight: bold;
     font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
 .card-added-items {
@@ -821,6 +817,7 @@ a:hover {
     display: flex;
     margin-bottom: 10px;
     transition: background-color 0.5s ease;
+    align-items: center;
 }
 
 .card-added-items:hover {
@@ -828,45 +825,60 @@ a:hover {
 }
 
 .card-added-items img {
-    width: 10%;
+    width: 80px;
     height: auto;
     margin: 2%;
 }
 
 .text-first-line {
-    display: flex;
-    gap: 100px;
-    margin: 10px;
-    font-weight: bold;
-    flex-grow: 1;
-}
-
-.text-second-line {
-    display: flex;
-    gap: 100px;
-    margin: 10px;
-    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
+    align-items: center;
+    justify-items: start;
 }
 
 .text-column {
     display: flex;
-    flex-direction: column;
-    flex-grow: 1;
 }
 
+.text-column-1 {
+    width: 275px;
+}
+
+.text-column-2 {
+    width: 470px;
+}
+
+.text-column-3 {
+    width: 80px;
+}
+
+.text-second-line {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+    justify-items: end;
+    margin-top: 1%;
+}
+
+.text-second-line-1 {
+    width: 200px;
+}
 
 /* Final card Itens adicionados */
 
 /* Inicio card Pagamento */
 .payment {
-    width: 450px;
     grid-column: 3 / 4;
     grid-row: 1 / 4;
     background-color: #FDFDFD;
     border-radius: 20px/20px;
-    height: 630px;
-    padding: 20px;
-    margin-right: 150px;
+    height: auto;
+    padding: 2%;
+}
+
+.payment-wallet p{
+    margin-bottom: 15px;
 }
 
 .wallets {
@@ -877,9 +889,9 @@ a:hover {
 
 .wallets-button {
     background-color: #F4F4F4;
-    width: 40px;
+    width: 25%;
     height: 30px;
-    border-radius: 10px 10px;
+    border-radius: 10px/10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -906,6 +918,8 @@ a:hover {
 
 .wallet-title {
     font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .wallet-total {
@@ -919,11 +933,10 @@ a:hover {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
 }
 
 .wallet-button-end{
-    width: 400px;
+    width: 453px;
     height: 46px;
     background-color: #B13CF1;
     border: none;
@@ -933,7 +946,7 @@ a:hover {
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     transition: background-color 0.10s ease;
     cursor: pointer;
     margin-bottom: 2%;
@@ -947,7 +960,7 @@ a:hover {
 }
 
 .wallet-button-continue {
-    width: 400px;
+    width: 453px;
     height: 46px;
     background-color: #F8F8F8;
     border: 2;
@@ -958,7 +971,7 @@ a:hover {
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     transition: background-color 0.10s ease;
     cursor: pointer;
 }

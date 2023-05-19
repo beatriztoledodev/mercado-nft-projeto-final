@@ -19,8 +19,6 @@
 <body>
     <header>
 
-       <!--Menu de navegação-->
-       <section>
         <nav class="navbar">
 
             <div class="logo">
@@ -30,7 +28,7 @@
 
             <div class="navbar__menu">
                 <ul>
-                    <li>Home</li>
+                    <li><a href="index.html">Home</a></li>
                     <li>Explorar
                         <ul>
                             <li><a href="artes.html"><img src="imagens/icons/artes.svg" class="icons"
@@ -43,8 +41,7 @@
                                         alt="Ícone esportes">Esportes</a></li>
                             <li><a href="#"><img src="imagens/icons/musica.svg" class="icons"
                                         alt="Ícone músicas">Músicas</a></li>
-                            <li><a href="#"><img src="imagens/icons/card.svg" class="icons"
-                                        alt="Ícone cards">Cards</a>
+                            <li><a href="#"><img src="imagens/icons/card.svg" class="icons" alt="Ícone cards">Cards</a>
                             </li>
                             <li><a href="#"><img src="imagens/icons/mundos.svg" class="icons"
                                         alt="Ícone mundos virtuais">Mundos virtuais</a></li>
@@ -52,17 +49,15 @@
                                         alt="Ícone domínios">Domínios</a></li>
                             <li><a href="#"><img src="imagens/icons/utilidades.svg" class="icons"
                                         alt="Ícone utilidades">Utilidades</a></li>
-                            <li><a href="#"><img src="imagens/icons/games.svg" class="icons"
-                                        alt="Ícone games">Games</a>
+                            <li><a href="#"><img src="imagens/icons/games.svg" class="icons" alt="Ícone games">Games</a>
                             </li>
-                            <li><a href="#"><img src="imagens/icons/todos.svg" class="icons"
-                                        alt="Ícone todos">Todos</a>
+                            <li><a href="#"><img src="imagens/icons/todos.svg" class="icons" alt="Ícone todos">Todos</a>
                             </li>
                         </ul>
                     </li>
                     <li>Estatísticas
                         <ul>
-                            <li><a href="estatisticas.html"><a href="#"><img src="imagens/icons/rankings.svg"
+                            <li><a href="estatisticas.html"><img src="imagens/icons/rankings.svg"
                                             class="icons" alt="Ícone lista de rankings">Rankings</a></li>
                             <li><a href="#"><a href="#"><img src="imagens/icons/atividade.svg" class="icons"
                                             alt="Ícone atividade">Atividade</a></li>
@@ -73,8 +68,8 @@
 
             <div class="navbar__actions">
                 <ul>
-                    <li class="navbar__menu--items"><a href="#"><img src="imagens/icons/cart.svg"
-                                title="Meu carrinho" alt="ícone do carrinho de compras" /></a>
+                    <li class="navbar__menu--items"><a href="#"><img src="imagens/icons/cart.svg" title="Meu carrinho"
+                                alt="ícone do carrinho de compras" /></a>
                         <ul>
                             <li><a href="carrinho.html"><img src="imagens/icons/meu-carrinho.svg" class="icons"
                                         alt="Ícone meu carrinho">Meu carrinho</a></li>
@@ -86,8 +81,8 @@
                     </li>
 
 
-                    <li class="navbar__menu--items"><a href="#"><img src="imagens/icons/profile.svg"
-                                title="Meu perfil" alt="ícone do meu perfil" /></a>
+                    <li class="navbar__menu--items"><a href="#"><img src="imagens/icons/profile.svg" title="Meu perfil"
+                                alt="ícone do meu perfil" /></a>
                         <ul>
                             <li><a href="perfil.html"><img src="imagens/icons/meu-perfil.svg" class="icons"
                                         alt="Ícone meu perfil">Perfil</a></li>
@@ -101,17 +96,15 @@
                                         alt="Ícone minha carteira">Minha carteira</a></li>
                             <li><a href="#"><img src="imagens/icons/criar.svg" class="icons" alt="Ícone criar">Criar
                                     conta</a></li>
-                            <li><a href="#"><img src="imagens/icons/sair.svg" class="icons"
-                                        alt="Ícone sair">Sair</a>
+                            <li><a href="#"><img src="imagens/icons/sair.svg" class="icons" alt="Ícone sair">Sair</a>
                             </li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </nav>
-    </section>
-    <!--Fim do menu de navegação-->
-</header>
+
+    </header>
 
     <body>
         <!--Carrinho-->
@@ -119,7 +112,7 @@
 
             <!--Inicio do Carrinho-->
     
-            <div class="cart__title">
+            <div class="cart-title">
                 <h1>Meu carrinho</h1>
             </div>
     
@@ -133,14 +126,15 @@
                     <div class="card-added-items">
                         <img src="imagens/carrinho/cart-card-adde-title-1.png" alt="Imagem do card 1">
                         <div class="text-column">
-                            <div class="text-first-line">
+                            <div class="text-column-1">
                                 <p> Uma Viagem Noturna...</p>
-                                <p> Categoria</p>
-                                <p> Valor</p>
-                            </div>
-                            <div class="text-second-line">
                                 <p> Joana Beuloi / Joana Beuloi</p>
-                                <p> Artes</p>
+                            </div>
+                            <div class="text-column-2"> 
+                                <p>  Categoria</p>
+                                <p> Artes</p></div>
+                            <div class="text-column-3">
+                                <p> Valor</p>
                                 <p> 2.5 ETH</p>
                             </div>
                         </div>
@@ -148,29 +142,33 @@
                     <div class="card-added-items">
                         <img src="imagens/carrinho/cart-card-adde-title-2.png" alt="Imagem do card 2">
                         <div class="text-column">
-                            <div class="text-first-line">
-                                <p> Manobra Radical</p>
-                                <p> Categoria</p>
-                                <p> Valor</p>
-                            </div>
-                            <div class="text-second-line">
-                                <p> Julio Cesar / Carlos Abreu</p>
-                                <p> Esportes</p>
-                                <p> 5.94 ETH</p>
+                            <div class="text-column">
+                                <div class="text-column-1">
+                                    <p> Manobra Radical</p>
+                                    <p> Julio Cesar / Carlos Abreu</p>
+                                </div>
+                                <div class="text-column-2"> 
+                                    <p> Categoria</p>
+                                    <p> Esportes</p></div>
+                                <div class="text-column-3">
+                                    <p> Valor</p>
+                                    <p> 5.94 ETH</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="card-added-items">
                         <img src="imagens/carrinho/cart-card-adde-title-3.png" alt="Imagem do card 3">
                         <div class="text-column">
-                            <div class="text-first-line">
+                            <div class="text-column-1">
                                 <p> Esferas em Movimento</p>
-                                <p> Categoria</p>
-                                <p> Valor</p>
+                                <p> Vivian Duarte / Vivian Duarte</p>
                             </div>
-                            <div class="text-second-line">
-                                <p> Vivian Duarte / Vivian Duarte </p>
-                                <p> Artes</p>
+                            <div class="text-column-2"> 
+                                <p> Categoria</p>
+                                <p> Arte</p></div>
+                            <div class="text-column-3">
+                                <p> Valor</p>
                                 <p> 8.45 ETH</p>
                             </div>
                         </div>
@@ -178,14 +176,15 @@
                     <div class="card-added-items">
                         <img src="imagens/carrinho/cart-card-adde-title-4.png" alt="Imagem do card 4">
                         <div class="text-column">
-                            <div class="text-first-line">
+                            <div class="text-column-1">
                                 <p> Mini Bumblebee</p>
-                                <p> Categoria</p>
-                                <p> Valor</p>
-                            </div>
-                            <div class="text-second-line">
                                 <p> Julio Cesar / Carlos Abreu</p>
-                                <p> Colecionáveis</p>
+                            </div>
+                            <div class="text-column-2"> 
+                                <p> Categoria</p>
+                                <p> Colecionáveis</p></div>
+                            <div class="text-column-3">
+                                <p> Valor</p>
                                 <p> 1.8 ETH</p>
                             </div>
                         </div>
@@ -193,16 +192,18 @@
                     <div class="card-added-items">
                         <img src="imagens/carrinho/cart-card-adde-title-5.png" alt="Imagem do card 5">
                         <div class="text-column">
-                            <div class="text-first-line">
-                                <p> Monólitos Sombrios</p>
-                                <p> Categoria</p>
-                                <p> Valor</p>
+                            <div class="text-column-1">
+                                <p> Monólito Sombrios</p>
+                                <p> Vivian Duarte / Vivian Duarte</p>
                             </div>
-                            <div class="text-second-line">
-                                <p> Vivian Duarte / Vivian Duarte </p>
-                                <p> Artes</p>
+                            <div class="text-column-2"> 
+                                <p> Categoria</p>
+                                <p> Arte</p></div>
+                            <div class="text-column-3">
+                                <p> Valor</p>
                                 <p> 15.25 ETH</p>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -216,7 +217,7 @@
                         <p>Pagamento</p>
                     </div>
     
-                    <div class="Payment-wallet">
+                    <div class="payment-wallet">
                         <p> Selecione sua carteira:</p>
                         <div class="wallets">
                             <div class="wallets-button">
@@ -234,7 +235,7 @@
                     <div class="wallet-items-value">
                         <div class="wallet-items">
                             <p class="wallet-title">Itens</p>
-                            <P>Uma Viagem Noturna pelo Mundo...</P>
+                            <P>Uma Viagem Noturna pelo Mundo Escuro</P>
                             <p>Manobra Radical</p>
                             <p>Esferas em Movimento</p>
                             <p>Mini Numblebee</p>
